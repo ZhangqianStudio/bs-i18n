@@ -1,7 +1,7 @@
 ---
 index:
-  total-users: Registered Users
-  total-players: Players
+  total-users: 已注册用户
+  total-players: 玩家
   total-textures: Uploaded Textures
   disk-usage: Disk Usage
   overview: Overview
