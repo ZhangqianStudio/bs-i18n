@@ -2,10 +2,10 @@
 index:
   total-users: 已注册用户
   total-players: 玩家
-  total-textures: Uploaded Textures
-  disk-usage: Disk Usage
-  overview: Overview
-  texture-uploads: Texture Uploads
+  total-textures: 上載材質
+  disk-usage: 磁碟使用
+  overview: 概觀
+  texture-uploads: 材質上載
   user-registration: User Registration
 users:
   players-count:
