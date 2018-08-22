@@ -6,21 +6,21 @@ index:
   disk-usage: 磁碟使用
   overview: 概觀
   texture-uploads: 材質上載
-  user-registration: User Registration
+  user-registration: 使用者註冊
 users:
   players-count:
-    title: Players Count
+    title: 玩家數
   status:
-    title: Status
-    normal: Normal
-    banned: Banned
-    admin: Admin
-    super-admin: Super Admin
+    title: 狀態
+    normal: 正常
+    banned: 已封鎖
+    admin: 管理員
+    super-admin: 超級管理員
   verification:
-    title: Account Verification
+    title: 帳戶驗證
   operations:
-    title: Operations
-    non-existent: No such user.
+    title: 操作
+    non-existent: 無此用戶
     no-permission: You have no permission to operate this user.
     invalid: Invalid action.
     email:
