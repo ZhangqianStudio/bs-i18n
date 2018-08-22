@@ -1,19 +1,19 @@
 ---
 login:
-  title: Log In
-  button: Log In
-  message: Log in to manage your skin & players
-  keep: Remember me
-  success: Logged in successfully~
+  title: 登入
+  button: 登入
+  message: 登入以管理您的皮膚和角色
+  keep: 記住登入資訊
+  success: 登入成功。
 check:
-  anonymous: Illegal access. Please log in first.
-  admin: Only admins are permitted to access this page.
-  banned: You are banned on this site. Please contact the admin.
-  token: Invalid token. Please log in.
+  anonymous: 非法訪問。請先登入。
+  admin: 只有管理員可訪問此頁。
+  banned: 您在此站点被查禁。請與管理員聯繫。
+  token: 非法的 token. 请登入
 register:
-  title: Register
-  button: Register
-  message: Welcome to :sitename!
+  title: 註冊
+  button: 註冊
+  message: 歡迎来到 :sitename!
   nickname-intro: Whatever you like expect special characters
   repeat-pwd: Repeat your password
   close: Well, this site doesn't allow any register.
