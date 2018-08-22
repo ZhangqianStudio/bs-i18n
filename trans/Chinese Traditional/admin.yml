@@ -1,7 +1,7 @@
 ---
 index:
   total-users: 已注册用户
-  total-players: 玩家
+  total-players: 角色
   total-textures: 上載材質
   disk-usage: 磁碟使用
   overview: 概觀
@@ -9,7 +9,7 @@ index:
   user-registration: 使用者註冊
 users:
   players-count:
-    title: 玩家數
+    title: 角色數
   status:
     title: 狀態
     normal: 正常
@@ -21,49 +21,49 @@ users:
   operations:
     title: 操作
     non-existent: 無此用戶
-    no-permission: You have no permission to operate this user.
-    invalid: Invalid action.
+    no-permission: 您無權操作此用戶。
+    invalid: 非法的操作
     email:
-      change: Edit Email
-      existed: ':email is existed.'
-      success: Email changed successfully.
+      change: 編輯電子郵件
+      existed: ':email 已存在'
+      success: 電子郵件地址已成功變更.
     verification:
-      success: Account verification status switched successfully.
+      success: 帳戶驗證狀態已成功切換。
     nickname:
-      change: Edit Nickname
-      success: Nickname changed successfully.
+      change: 編輯暱稱
+      success: 暱稱更改成功.
     password:
-      change: Edit Password
-      success: Password changed successfully.
+      change: 編輯密碼
+      success: 密碼更改成功
     score:
-      success: Score changed successfully.
+      success: 積分更改成功
     admin:
       set:
-        text: Set as Admin
-        success: The account has been set as admin.
+        text: 設置爲管理員
+        success: 該帳戶已設置為管理員。
       unset:
-        text: Remove Admin
-        success: The account's admin privilege has been removed.
+        text: 移除管理員權限
+        success: 帳戶的管理員權限已被刪除.
     ban:
       ban:
-        text: Ban
-        success: The account has been banned.
+        text: 封禁
+        success: 帳號已經被封禁
       unban:
-        text: Unban
-        success: The account was not banned anymore.
-      cant-super-admin: You can't ban a super admin.
-      cant-admin: Only super admins are able to ban admins.
+        text: 解除封禁
+        success: 賬戶現已解除封禁
+      cant-super-admin: 你無法封禁超級管理員
+      cant-admin: 只有超級管理員才能封禁管理員。
     delete:
-      delete: Delete User
-      success: The account has been deleted successfully.
-      cant-super-admin: You can't delete a super admin.
-      cant-admin: You can't delete a admin account.
+      delete: 刪除用戶
+      success: 賬戶刪除成功.
+      cant-super-admin: 你無法刪除超級管理員
+      cant-admin: 你無法刪除管理員賬戶
 players:
-  no-permission: You have no permission to operate this player.
+  no-permission: 您無權操作此角色。
   operations:
-    title: Operations
+    title: 操作
   preference:
-    success: The preference of player ":player" has been changed to :preference
+    success: 角色 :player 的優先模型已更改至 :preference
   textures:
     change: Change Textures
     non-existent: No such texture tid.:tid
