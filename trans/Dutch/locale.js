@@ -1,12 +1,3 @@
-/*!
- * Blessing Skin English Translations
- *
- * @see https://github.com/printempw/blessing-skin-server
- * @author printempw <h@prinzeugen.net>
- *
- * NOTE: this file must be saved in UTF-8 encoding.
- */
-
 (function ($) {
     'use strict';
 
@@ -15,7 +6,7 @@
             // Login
             emptyIdentification: 'Empty email/player name.',
             emptyPassword: 'Password is required.',
-            emptyCaptcha: 'Empty password.',
+            emptyCaptcha: 'Please enter the CAPTCHA.',
             login: 'Log In',
             loggingIn: 'Logging In',
             tooManyFails: 'You fails too many times! Please enter the CAPTCHA.',
@@ -27,6 +18,7 @@
             emptyConfirmPwd: 'Empty confirming password.',
             invalidConfirmPwd: 'Confirming password is not equal with password.',
             emptyNickname: 'Empty nickname.',
+            emptyPlayerName: 'Empty player name.',
             register: 'Register',
             registering: 'Registering',
 
@@ -41,11 +33,15 @@
             addToCloset: 'Add to closet',
             removeFromCloset: 'Remove from closet',
             setItemName: 'Set a name for this texture',
+            applyNotice: 'You can apply it to player at your closet',
             emptyItemName: 'Empty texture name.',
 
             // Rename
             setNewTextureName: 'Please enter the new texture name:',
             emptyNewTextureName: 'Empty new texture name.',
+
+            // Change Model
+            setNewTextureModel: 'Please select a new texture model:',
 
             // Skinlib
             filter: {
@@ -76,8 +72,8 @@
             redirecting: 'Redirecting...',
 
             // Change Privacy
-            setAsPrivate: 'Set as Private',
-            setAsPublic: 'Set as Public',
+            setAsPrivate: 'Set as private',
+            setAsPublic: 'Set as public',
             setPublicNotice: 'Sure to set this as public texture?',
 
             deleteNotice: 'Are you sure to delete this texture?'
@@ -94,8 +90,8 @@
             removeItem: 'Remove from closet',
             setAsAvatar: 'Set as avatar',
             viewInSkinlib: 'View in skin library',
-            switch2dPreview: 'Switch to 2D Preview',
-            switch3dPreview: 'Switch to 3D Preview',
+            switch2dPreview: 'Switch to 2D preview',
+            switch3dPreview: 'Switch to 3D preview',
             removeFromClosetNotice: 'Sure to remove this texture from your closet?',
             emptySelectedPlayer: 'No player is selected.',
             emptySelectedTexture: 'No texture is selected.',
@@ -129,16 +125,17 @@
             unban: 'Unban',
             setAdmin: 'Set as admin',
             unsetAdmin: 'Remove admin',
-            deleteUser: 'Delete User',
+            deleteUser: 'Delete user',
             cannotDeleteAdmin: 'You can\'t delete admins.',
-            cannotDeleteSuperAdmin: 'You can\'t delete super admin in this way',
-            changeEmail: 'Edit Email',
-            changeNickName: 'Edit Nickname',
-            changePassword: 'Edit Password',
+            cannotDeleteSuperAdmin: 'You can\'t delete super admins.',
+            changeEmail: 'Edit email',
+            changeNickName: 'Edit nickname',
+            changePassword: 'Edit password',
+            changeVerification: 'Switch verification status',
             newUserEmail: 'Please enter the new email:',
             newUserNickname: 'Please enter the new nickname:',
             newUserPassword: 'Please enter the new password:',
-            deleteUserNotice: 'Are you sure to delete this user? It\' permanent.',
+            deleteUserNotice: 'Are you sure to delete this user? It\'s permanent.',
             scoreTip: 'Press ENTER to submit new score',
             inspectHisOwner: 'Click to inspect the owner of this player',
             inspectHisPlayers: 'Click to inspect the players he owns',
@@ -149,6 +146,10 @@
             admin: 'Admin',
             superAdmin: 'Super Admin',
 
+            // Verification
+            unverified: 'Unverified',
+            verified: 'Verified',
+
             // Players
             textureType: 'Texture Type',
             skin: 'Skin (:model Model)',
@@ -156,36 +157,49 @@
             pid: 'Texture ID',
             pidNotice: 'Please enter the tid of texture. Inputting 0 can clear texture of this player.',
             changePlayerTexture: 'Change textures of :player',
-            changeTexture: 'Change Textures',
-            changePlayerName: 'Change Player Name',
-            changeOwner: 'Change Owner',
+            changeTexture: 'Change textures',
+            changePlayerName: 'Change player name',
+            changeOwner: 'Change owner',
             deletePlayer: 'Delete',
-            changePlayerOwner: 'Please enter the id of user which this player should be transferred to:',
+            changePlayerOwner: 'Please enter the id of user which this player is transfering to:',
             deletePlayerNotice: 'Are you sure to delete this player? It\' permanent.',
             targetUser: 'Target user is :nickname',
-            noSuchUser: 'No such user',
+            noSuchUser: 'No such user.',
             changePlayerNameNotice: 'Please input new player name:',
             emptyPlayerName: 'Player name cannot be empty.',
 
             // Plugins
-            configurePlugin: 'Configure',
-            noPluginConfigNotice: 'The plugin has been disabled or no configuration is provided.',
-            deletePlugin: 'Delete',
-            statusEnabled: 'Enabled',
-            statusDisabled: 'Disabled',
+            pluginTitle: 'Plugin',
+            pluginAuthor: 'Author',
+            pluginVersion: 'Version',
+            pluginName: 'Name',
+            pluginOperations: 'Operations',
+            pluginDescription: 'Description',
+            pluginDependencies: 'Dependencies',
+            pluginEnabled: 'Enabled',
             enablePlugin: 'Enable',
             disablePlugin: 'Disable',
+            configurePlugin: 'Configure',
+            installPlugin: 'Install',
+            pluginInstalling: 'Installing...',
+            updatePlugin: 'Update',
+            pluginUpdating: 'Updating...',
+            confirmUpdate: 'Are you sure to update ":plugin" from :old to :new?',
+            deletePlugin: 'Delete',
             confirmDeletion: 'Are you sure to delete this plugin?',
+            noDependencies: 'No Dependencies',
+            whyDependencies: 'What\'s this?',
+            noDependenciesNotice: 'There is no dependency definition in the plugin. It means that the plugin may be not compatible with the current version of Blessing Skin, and enabling it may cause unexpected problems. Do you really want to enable the plugin?',
 
             // Update
             preparing: 'Preparing',
             downloadCompleted: 'Update package download completed.',
-            extracting: 'Extracting update package..'
+            extracting: 'Extracting update package...'
         },
         general: {
             skin: 'Skin',
             cape: 'Cape',
-            fatalError: 'Fatal Error (Please contact the author)',
+            fatalError: 'Fatal Error <small>(Please read the <a target="_blank" href="https://github.com/printempw/blessing-skin-server/wiki/FAQ">FAQ</a> before asking questions)</small>',
             confirmLogout: 'Sure to log out?',
             confirm: 'OK',
             cancel: 'Cancel',
