@@ -65,7 +65,7 @@ players:
   preference:
     success: 角色 :player 的優先模型已更改至 :preference
   textures:
-    change: Change Textures
+    change: 更改材質
     non-existent: No such texture tid.:tid
     success: The textures of :player has been updated.
   name:
