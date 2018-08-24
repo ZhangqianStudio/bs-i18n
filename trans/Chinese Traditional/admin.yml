@@ -98,17 +98,17 @@ plugins:
     title: 操作
     enabled: ':plugin 已被啓用'
     unsatisfied:
-      notice: There are unsatisfied dependencies in the plugin, therefore we can't enable it. Please install or update the plugins listed below.
-      disabled: The <code>:name</code> plugin is not enabled
-      version: The version of <code>:name</code> does not satisfies the constraint <code>:constraint</code>
-    disabled: ':plugin has been disabled.'
-    deleted: The plugin was deleted successfully.
-    no-config-notice: The plugin is not installed or doesn't provide a configuration page.
-    not-found: No such plugin.
+      notice: 插件中存在未滿足的依賴關係, 因此我們無法啟用它. 請檢查已下插件的版本，更新或安裝他們.
+      disabled: <code>:name</code> 插件未啓用
+      version: <code>:name</code> 的版本不滿足要求 <code>:constraint</code>
+    disabled: ':plugin 已被禁用'
+    deleted: 插件刪除成功
+    no-config-notice: 插件未安裝或未提供配置頁。
+    not-found: 此插件不存在
   market:
-    connection-error: Unable to connect to the plugins registry (to change the plugins registry URL, please refer to http://t.cn/Rk6X37l). :error
-    non-existent: The plugin :plugin does not exist.
-    download-failed: Unable to download the plugin. :error
+    connection-error: 無法連接到插件註冊表 (要更改外掛程式註冊表 URL, 請參閱 HTTP://t.cn/Rk6X37l). :error
+    non-existent: 插件 :plugin 不存在
+    download-failed: 無法下載插件。:error
     shasum-failed: The downloaded file failed hash check, please retry.
     unzip-failed: Unable to extract the plugin. :error
     install-success: Plugin was installed.
