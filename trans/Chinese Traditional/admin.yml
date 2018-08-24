@@ -126,7 +126,7 @@ update:
     release-time: "發布時間:"
     pre-release: 您現在使用的是預發行版本.
     change-log:
-      text: "更新紀錄"
+      text: "更新紀錄:"
       empty: 空
     downloads:
       text: "下載連結:"
