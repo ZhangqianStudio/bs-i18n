@@ -13,7 +13,7 @@ users:
   status:
     title: 狀態
     normal: 正常
-    banned: 已封鎖
+    banned: 已封禁
     admin: 管理員
     super-admin: 超級管理員
   verification:
@@ -101,16 +101,16 @@ plugins:
       notice: 插件中存在未滿足的依賴關係, 因此我們無法啟用它. 請檢查已下插件的版本，更新或安裝他們.
       disabled: <code>:name</code> 插件未啓用
       version: <code>:name</code> 的版本不滿足要求 <code>:constraint</code>
-    disabled: ':plugin 已被禁用'
+    disabled: ':plugin 已被禁用.'
     deleted: 插件刪除成功
     no-config-notice: 插件未安裝或未提供配置頁。
     not-found: 此插件不存在
   market:
     connection-error: 無法連接到插件註冊表 (要更改外掛程式註冊表 URL, 請參閱 HTTP://t.cn/Rk6X37l). :error
-    non-existent: 插件 :plugin 不存在
-    download-failed: 無法下載插件。:error
+    non-existent: 插件 :plugin 不存在.
+    download-failed: 無法下載插件.:error
     shasum-failed: 文檔校驗失敗, 請重新下載
-    unzip-failed: 解壓插件失敗 :error
+    unzip-failed: 解壓插件失敗. :error
     install-success: 插件未安裝
   empty: 無任何結果
 update:
@@ -119,33 +119,33 @@ update:
     title: 更新資訊
     up-to-date: 已經是最新的.
     available: 有新版本可用
-    pre-release-warning: 此更新是預發佈版本, 請在更新前加倍檢查。
+    pre-release-warning: 此更新是預發行版本, 請在更新前加倍檢查。
     versions:
-      latest: "最新版本"
+      latest: "最新版本:"
       current: "当前版本："
-    release-time: "發布時間"
-    pre-release: You are now using pre-release version.
+    release-time: "發布時間:"
+    pre-release: 您現在使用的是預發行版本.
     change-log:
-      text: "Change Log:"
-      empty: Empty
+      text: "更新紀錄"
+      empty: 空
     downloads:
-      text: "Download Link:"
-      link: Click to download full update package.
-    check-github: <a href=":url" target="_blank" class="btn btn-default pull-right">Check GitHub Releases</a>
-    button: Update Now
+      text: "下載連結:"
+      link: 點擊以下載全量更新包
+    check-github: <a href=":url" target="_blank" class="btn btn-default pull-right">檢視 Github Releases</a>
+    button: 立即更新
   cautions:
-    title: Cautions
+    title: 警告
     text: |
-      Please choose update source according to your host's network environment.
-      Low-speed connection between update source and your host will cause long-time loading at checking and downloading page.
-      To change the default update source, please refer to <a target="_blank" href="https://github.com/printempw/blessing-skin-server/wiki/%E6%9B%B4%E6%96%B0%E6%BA%90%E5%88%97%E8%A1%A8">this wiki article</a>.
+      請根據宿主機的網路環境選擇更新源.
+      更新源和宿主機之前的低速率傳輸將會導致在下載頁面長時間的加載.
+      請參考<a target="_blank" href="https://github.com/printempw/blessing-skin-server/wiki/%E6%9B%B4%E6%96%B0%E6%BA%90%E5%88%97%E8%A1%A8">此 wiki 文章</a>更改默認更新源
   download:
-    downloading: Downloading update package...
-    size: "Size of package:"
+    downloading: 下載更新中...
+    size: "更新包大小:"
   errors:
-    prefix: "An error occured: "
-    connection: We can't connect to the update source. :error
-    write-permission: Unable to create the cache directory. Please check the permission.
-    unzip: "Failed to extract update package. Error code: "
-    overwrite: Unable to overwrite files.
-invalid-action: Invalid action
+    prefix: "發生錯誤: "
+    connection: 無法連接到更新源. :error
+    write-permission: 無法創建緩存目錄. 請檢查許可權.
+    unzip: "無法解壓更新包. 錯誤代碼: "
+    overwrite: 無法覆蓋文檔
+invalid-action: 非法的操作
