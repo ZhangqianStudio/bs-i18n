@@ -109,21 +109,21 @@ plugins:
     connection-error: 無法連接到插件註冊表 (要更改外掛程式註冊表 URL, 請參閱 HTTP://t.cn/Rk6X37l). :error
     non-existent: 插件 :plugin 不存在
     download-failed: 無法下載插件。:error
-    shasum-failed: The downloaded file failed hash check, please retry.
-    unzip-failed: Unable to extract the plugin. :error
-    install-success: Plugin was installed.
-  empty: No result
+    shasum-failed: 文檔校驗失敗, 請重新下載
+    unzip-failed: 解壓插件失敗 :error
+    install-success: 插件未安裝
+  empty: 無任何結果
 update:
-  complete: Update completed
+  complete: 更新已完成
   info:
-    title: Update Information
-    up-to-date: Already up-to-date.
-    available: New version available.
-    pre-release-warning: This update is a pre-release, please double check before updating.
+    title: 更新資訊
+    up-to-date: 已經是最新的.
+    available: 有新版本可用
+    pre-release-warning: 此更新是預發佈版本, 請在更新前加倍檢查。
     versions:
-      latest: "Latest Version:"
-      current: "Current Version:"
-    release-time: "Release Time:"
+      latest: "最新版本"
+      current: "当前版本："
+    release-time: "發布時間"
     pre-release: You are now using pre-release version.
     change-log:
       text: "Change Log:"
