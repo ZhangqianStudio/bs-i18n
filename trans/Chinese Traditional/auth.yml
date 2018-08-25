@@ -4,10 +4,10 @@ login:
   button: 登入
   message: 登入以管理您的皮膚和角色
   keep: 記住登入資訊
-  success: Logged in successfully.
+  success: 登入成功.
 check:
   anonymous: 非法訪問。請先登入。
-  verified: To access this page, you should verify your email address first.
+  verified: 要訪問此頁面, 請先驗證您的電子郵件地址.
   admin: 只有管理員可訪問此頁。
   super-admin: Only super admin is permitted to access this page.
   banned: 您在此站点被查禁。請與管理員聯繫。
