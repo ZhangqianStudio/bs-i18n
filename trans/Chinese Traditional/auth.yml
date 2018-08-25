@@ -9,28 +9,28 @@ check:
   anonymous: 非法訪問。請先登入。
   verified: 要訪問此頁面, 請先驗證您的電子郵件地址.
   admin: 只有管理員可訪問此頁。
-  super-admin: Only super admin is permitted to access this page.
+  super-admin: 只有超級管理員才可以訪問此頁面.
   banned: 您在此站点被查禁。請與管理員聯繫。
-  token: Token expired. Please log in.
+  token: Token 已過期. 請登錄.
 register:
   title: 註冊
   button: 註冊
   message: 歡迎来到 :sitename!
-  player-name-intro: Player name in Minecraft, can be changed later
-  nickname-intro: Whatever you like expect special characters
-  repeat-pwd: Repeat your password
-  close: We don't accept any registration.
-  success: Your account was registered. Redirecting...
-  max: You can't register more than :regs accounts.
-  registered: The email address was already registered.
+  player-name-intro: 在 Minecraft 中的角色名, 可以在稍後進行更改
+  nickname-intro: 除特殊字符外的任意内容
+  repeat-pwd: 重複輸入密碼
+  close: 我們不接受注冊
+  success: 您的賬戶已注冊. 跳轉中...
+  max: 您無法注冊 :regs 個已上賬戶.
+  registered: 此 email 已經註冊.
 forgot:
-  title: Forgot Password
-  button: Send
-  message: We will send you an E-mail to verify.
-  login-link: I do remember it
-  disabled: Password resetting is not available.
-  frequent-mail: You click the send button too fast. Wait for some minutes.
-  unregistered: The email address is not registered.
+  title: 忘記密碼
+  button: 發送
+  message: 我們會給你發一封電子郵件來核實.
+  login-link: 我又想起來了.
+  disabled: 重置密碼暫不可用.
+  frequent-mail: 您點擊 "發送" 按鈕的速度過快. 請等幾分鐘。
+  unregistered: 该 email 沒有注册.
   success: Mail sent, please check your inbox. The link will be expired in 1 hour.
   failed: Failed to send verification mail. :msg
   mail:
