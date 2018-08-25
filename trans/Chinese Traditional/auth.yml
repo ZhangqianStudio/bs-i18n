@@ -31,49 +31,49 @@ forgot:
   disabled: 重置密碼暫不可用.
   frequent-mail: 您點擊 "發送" 按鈕的速度過快. 請等幾分鐘。
   unregistered: 该 email 沒有注册.
-  success: Mail sent, please check your inbox. The link will be expired in 1 hour.
-  failed: Failed to send verification mail. :msg
+  success: 郵件已發送, 請檢查您的收件匣. 連結將在1小時內過期.
+  failed: 未能送達驗證郵件. :msg
   mail:
-    title: Reset your password on :sitename
-    message: You are receiving this email because we received a password reset request for your account on :sitename.
-    reset: 'To reset your password, please visit: <a href=":url">:url</a>'
-    ignore: If you did not request a password reset, no further action is required.
+    title: 重設您在 :sitename 的密碼
+    message: 您之所以收到此電子郵件, 是因為我們在 :sitename 上收到了關於您賬戶的重設密碼請求.
+    reset: '要重置密碼, 請訪問: <a href=":url">:url</a>'
+    ignore: 如果未請求重新設置密碼, 則不需要進一步操作.
 reset:
-  title: Reset Password
-  button: Reset
-  invalid: Invalid link.
-  expired: This link is expired, please resend a verification email.
-  message: ':username, reset your password here.'
-  success: Your password was reset successfully.
+  title: 重設密碼
+  button: 重設
+  invalid: 無效的連結.
+  expired: 此連結已過期, 請重新發送驗證郵件.
+  message: ':username, 請在此處重置密碼。'
+  success: 密碼重設成功.
 bind:
-  title: Bind Email
-  button: Bind
-  message: You need to provide your email adderss to continue.
-  introduction: We won't send you any spam.
-  registered: The email address was already taken.
+  title: 綁定電子郵件
+  button: 綁定
+  message: 您需要提供您的電子郵件位址以繼續.
+  introduction: 我們不會向您發送任何垃圾郵件.
+  registered: Email 地址已被使用
 verify:
-  title: Email Verification
-  success: Your account was now verified.
-  message: Welcome to :sitename!
-  button: Homepage
-  invalid: Invalid link.
-  expired: This link is expired, please resend a verification email.
+  title: 電子郵件驗證
+  success: 您的帳戶已通過驗證.
+  message: 歡迎来到 :sitename!
+  button: 首頁
+  invalid: 非法的連結.
+  expired: 此連結已過期, 請重新發送驗證郵件.
 validation:
-  identification: The email or player name is invalid.
-  email: Email format is invalid.
-  captcha: Wrong CAPTCHA.
-  user: No such user.
-  password: Wrong password.
+  identification: 電子郵箱或角色名稱有誤
+  email: 電子郵箱格式有誤
+  captcha: 驗證碼錯誤
+  user: 無此用戶
+  password: 密碼錯誤
 logout:
-  success: You are now logged out.
-  fail: No valid session.
-nickname: Nickname
-player-name: Minecraft player name
-email: Email
-identification: Email or player name
-password: Password
-captcha: CAPTCHA
-change-captcha: Click to change CAPTCHA image.
-login-link: Already registered? Log in here.
-forgot-link: Forgot password?
-register-link: Register a new account
+  success: 您現在已登出
+  fail: 沒有有效的會話.
+nickname: 暱稱
+player-name: Minecraft 角色名
+email: 電子郵箱
+identification: 電子郵箱或角色名
+password: 密碼
+captcha: 驗證碼
+change-captcha: 點擊以改變驗證圖片
+login-link: 已經註冊了? 從這裡登錄.
+forgot-link: 忘記密碼?
+register-link: 註冊新帳戶
