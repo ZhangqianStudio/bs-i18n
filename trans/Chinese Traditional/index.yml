@@ -2,12 +2,12 @@
 features:
   first:
     icon: fa-users
-    name: Multi Player
-    desc: You can add multiple players with only one account.
+    name: 多個角色
+    desc: 您可以在一個賬戶上添加多個角色
   second:
     icon: fa-share-alt
-    name: Sharing
-    desc: Explore the skin library, send a "like" and share them with your friends.
+    name: 分享
+    desc: 探索皮膚庫，發送喜歡並和您的朋友分享.
   third:
     icon: fa-cloud
     name: Free
