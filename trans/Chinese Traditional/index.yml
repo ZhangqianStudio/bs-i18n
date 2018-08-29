@@ -10,7 +10,7 @@ features:
     desc: 探索皮膚庫，發送喜歡並和您的朋友分享.
   third:
     icon: fa-cloud
-    name: Free
-    desc: It is free forever. No ads. No subscription fees.
-introduction: ':sitename provides the service of uploading and hosting Minecraft skins. By coordinating with skin mods (e.g. CustomSkinLoader), you can choose skin and cape for your game character, and make it visible to other players in Minecraft.'
-start: Join Us
+    name: 完全免費
+    desc: 永久免費, 沒有廣告, 沒有年費.
+introduction: ':sitename 提供上傳和託管 Minecraft 皮膚的服務。通過于皮膚 mods 搭配使用(如 CustomSkinLoader), 您可以為您的游戲主角選擇皮膚和斗篷, 並對其他 Minecraft 玩家同樣可見.'
+start: 加入我們
