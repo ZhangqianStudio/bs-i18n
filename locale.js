@@ -1,3 +1,4 @@
+//This file DOESN'T need translate.
 (function ($) {
     'use strict';
 
