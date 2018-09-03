@@ -1,0 +1,20 @@
+---
+http:
+  msg-403: 您無權訪問此頁面.
+  msg-404: 暫無内容.
+  msg-500: 請稍後再試.
+  msg-503: 應用程式現在處於維護模式.
+  method-not-allowed: 不被允許的請求.
+  csrf-token-mismatch: Token 不匹配, 請嘗試重新載入該頁.
+general:
+  title: 發生錯誤
+exception:
+  code: '錯誤代碼 :code'
+  detail: '詳細内容: :msg'
+  message: |
+    哎呀, 好像出了點事.(請在 .env 文件中啓用 APP_DEBUG 查看詳細資訊)
+plugins:
+  duplicate: 插件 [:dir1] 有一個和插件 [:dir2] 重複的名稱. 請檢查插件地址, 刪除其中的一項或使用另一個名稱定義.
+  directory: 我們無法載入 .env 文件中 PLUGINS_DIR 所指定的路徑. 請檢查您的配置. 錯誤 :msg
+cipher:
+  unsupported: 密碼檢驗方式 `:cipher` 不受支持, 請檢查您的 `.env` 文件配置.
