@@ -11,7 +11,7 @@ check:
   admin: 只有管理員可訪問此頁。
   super-admin: 只有超級管理員才可以訪問此頁面.
   banned: 您在此站点被查禁。請與管理員聯繫。
-  token: Token 已過期. 請登錄.
+  token: Token 已過期. 請重新登入.
 register:
   title: 註冊
   button: 註冊
@@ -19,10 +19,10 @@ register:
   player-name-intro: 在 Minecraft 中的角色名, 可以在稍後進行更改
   nickname-intro: 除特殊字符外的任意内容
   repeat-pwd: 重複輸入密碼
-  close: 我們不接受注冊
+  close: 注冊功能暫不可用
   success: 您的賬戶已注冊. 跳轉中...
-  max: 您無法注冊 :regs 個已上賬戶.
-  registered: 此 email 已經註冊.
+  max: 您無法注冊 :regs 個以上賬戶.
+  registered: 此 email 地址已被註冊.
 forgot:
   title: 忘記密碼
   button: 發送
