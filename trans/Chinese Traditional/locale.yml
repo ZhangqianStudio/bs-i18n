@@ -71,8 +71,8 @@ closet:
   removeItem: Remove from closet
   setAsAvatar: Set as avatar
   viewInSkinlib: View in skin library
-  switch2dPreview: Switch to 2D preview
-  switch3dPreview: Switch to 3D preview
+  switch2dPreview: 切換到 2D 預覽
+  switch3dPreview: 切換到 3D 預覽
   removeFromClosetNotice: Sure to remove this texture from your closet?
   emptySelectedPlayer: No player is selected.
   emptySelectedTexture: No texture is selected.
