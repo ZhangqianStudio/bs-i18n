@@ -1,34 +1,34 @@
 ---
 auth:
-  emptyIdentification: Empty email/player name.
-  emptyPassword: Password is required.
-  emptyCaptcha: Please enter the CAPTCHA.
-  login: Log In
-  loggingIn: Logging In
-  tooManyFails: You fails too many times! Please enter the CAPTCHA.
+  emptyIdentification: 請輸入電子郵箱地址或游戲角色名。
+  emptyPassword: 請輸入密碼。
+  emptyCaptcha: 請輸入驗證碼。
+  login: 登入
+  loggingIn: 登入中
+  tooManyFails: 嘗試次數過多，請輸入驗證碼。
   register:
-    emptyEmail: Empty email address.
-    invalidEmail: Invalid format of email address.
-    invalidPassword: Invalid password. The length of password should between 8 and 32.
-    emptyConfirmPwd: Empty confirming password.
-    invalidConfirmPwd: Confirming password is not equal with password.
-    emptyNickname: Empty nickname.
-    emptyPlayerName: Empty player name.
-    register: Register
-    registering: Registering
+    emptyEmail: 請輸入電子郵箱地址。
+    invalidEmail: 電子郵箱地址格式錯誤。
+    invalidPassword: 無效的密碼。密碼長度應在 8 到 32 個字符之間。
+    emptyConfirmPwd: 請再次輸入密碼以驗證您的想要設定的密碼輸入正確。
+    invalidConfirmPwd: 兩次輸入的密碼不一致。
+    emptyNickname: 請輸入昵稱。
+    emptyPlayerName: 請輸入游戲角色名。
+    register: 注冊
+    registering: 注冊中
   resetPassword:
-    send: Send
+    send: 發送
     sending:
-      reset: Reset
-    resetting: Resetting
+      reset: 重置
+    resetting: 重置中
 skinlib:
-  addToCloset: Add to closet
-  removeFromCloset: Remove from closet
-  setItemName: Set a name for this texture
-  applyNotice: You can apply it to player at your closet
-  emptyItemName: Empty texture name.
+  addToCloset: 添加到衣櫃
+  removeFromCloset: 從衣櫃中移除
+  setItemName: 為這件材質設置名稱
+  applyNotice: 你可以在衣櫃中將這件材質設置到你的角色上。
+  emptyItemName: 請輸入材質名稱。
   filter:
-    skin: (Any Model)
+    skin: '（任何模型）'
     steve: (Steve)
     alex: (Alex)
     cape: (Cape)
