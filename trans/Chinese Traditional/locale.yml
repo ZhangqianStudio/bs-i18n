@@ -29,41 +29,41 @@ skinlib:
   emptyItemName: 請輸入材質名稱。
   filter:
     skin: '（任何模型）'
-    steve: (Steve)
-    alex: (Alex)
-    cape: (Cape)
-    uploader: User (UID = :uid) Uploaded
-    allUsers: All Users
+    steve: '（Steve）'
+    alex: '（Alex）'
+    cape: '（披風）'
+    uploader: 由用戶（UID = :uid）上傳
+    allUsers: 所有用戶
   sort:
-    time: Newestly Uploaded
-    likes: Most Likes
+    time: 最新上傳
+    likes: 最多收藏
   rename:
-    setNewTextureName: Please enter the new texture name
-    emptyNewTextureName: Empty new texture name.
+    setNewTextureName: 請輸入新材質的名稱
+    emptyNewTextureName: 請輸入新材質的名稱。
   changeModel:
-    setNewTextureModel: Please select a new texture model
+    setNewTextureModel: 請選擇新材質的模型
   preview:
-    badSkinSize: The size of selected skin file is not valid
-    badCapeSize: The size of selected cape file is not valid
+    badSkinSize: 選擇的皮膚的大小無效
+    badCapeSize: 選擇的披風的大小無效
   upload:
-    emptyTextureName: Empty texture name.
+    emptyTextureName: 請輸入材質名稱。
     emptyTextureType: Please select a type for this texture.
-    emptyUploadFile: You have not uploaded any file.
+    emptyUploadFile: 你沒有上傳任何文件。
     encodingError:
-      Error: Encoding of this file is not accepted.
+      Error: 這個文件的編碼不被服務器接受。
     fileExtError:
-      Error: Textures should be PNG files.
-    upload: Upload
-    uploading: Uploading
-    redirecting: Redirecting...
+      Error: 材質應該是 PNG 文件。
+    upload: 上傳
+    uploading: 上傳中
+    redirecting: 重定向中...
   changePrivacy:
-    setAsPrivate: Set as private
-    setAsPublic: Set as public
-    setPublicNotice: Sure to set this as public texture?
-    deleteNotice: Are you sure to delete this texture?
+    setAsPrivate: 設爲私密
+    setAsPublic: 設爲公開
+    setPublicNotice: 確定要把這個材質設爲公開嗎？
+    deleteNotice: 確定要刪除這件材質嗎？
 user:
-  signRemainingTime: Available after :time :unit
-  timeUnitHour: h
+  signRemainingTime: 可在 :time :unit 后再次簽到。
+  timeUnitHour: 小時
   timeUnitMin: min
 closet:
   emptyClosetMsg: <p>Nothing in your closet...</p><p>Why not explore the <a href=":url">Skin Library</a> for a while?</p>
