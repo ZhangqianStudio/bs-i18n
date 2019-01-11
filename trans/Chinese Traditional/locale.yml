@@ -28,11 +28,11 @@ skinlib:
   applyNotice: 你可以在衣櫃中將這件材質設置到你的角色上。
   emptyItemName: 請輸入材質名稱。
   filter:
-    skin: '（任何模型）'
-    steve: '（Steve）'
-    alex: '（Alex）'
-    cape: '（披風）'
-    uploader: 由用戶（UID = :uid）上傳
+    skin: (任何模型)
+    steve: (Steve)
+    alex: (Alex)
+    cape: (披風)
+    uploader: 由用戶 (UID = :uid) 上傳
     allUsers: 所有用戶
   sort:
     time: 最新上傳
