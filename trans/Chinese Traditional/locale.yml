@@ -69,19 +69,19 @@ closet:
   emptyClosetMsg: <p>Nothing in your closet...</p><p>Why not explore the <a href=":url">Skin Library</a> for a while?</p>
   renameItem: Rename item
   removeItem: Remove from closet
-  setAsAvatar: Set as avatar
-  viewInSkinlib: View in skin library
+  setAsAvatar: 設爲頭像
+  viewInSkinlib: 在皮膚庫中查看
   switch2dPreview: 切換到 2D 預覽
   switch3dPreview: 切換到 3D 預覽
-  removeFromClosetNotice: Sure to remove this texture from your closet?
+  removeFromClosetNotice: 確定要將這個材質從你的衣櫃中移除嗎？
   emptySelectedPlayer: No player is selected.
   emptySelectedTexture: No texture is selected.
-  renameClosetItem: Set a new name for this item：
+  renameClosetItem: 為這件物品設置新的名稱：
 player:
   changePlayerName: Please enter the player name：
   emptyPlayerName: Empty player name.
   clearTexture: Sure to clear the skins & cape of this player?
-  deletePlayer: Sure to delete this player?
+  deletePlayer: 你確定要刪除這個角色嗎？
   deletePlayerNotice: It\s permanent. No backups.
   chooseClearTexture: Choose texture types you want to clear
   noClearChoice: You haven\t choose any types
@@ -91,9 +91,9 @@ profile:
   emptyNewNickName: Empty new nickname.
   changeNickName: Sure to set your nickname to :new_nickname?
   emptyPassword: Original password is required.
-  emptyNewPassword: Empty new password.
-  emptyNewEmail: Empty new email address.
-  changeEmail: Sure to change your email address to :new_email?
+  emptyNewPassword: 未輸入新密碼。
+  emptyNewEmail: 未輸入新的電子郵件地址
+  changeEmail: 確定將你的電子郵件地址更改爲 :new_email 嗎？
   emptyDeletePassword: Please enter the current password：
 admin:
   operationsTitle:
@@ -118,11 +118,11 @@ admin:
       inspectHisPlayers: Click to inspect the players he owns
   status:
     banned: Banned
-    normal: Normal
-    admin: Admin
-    superAdmin: Super Admin
+    normal: 普通用戶
+    admin: 管理員
+    superAdmin: 超級管理員
   verification:
-    unverified: Unverified
+    unverified: 未驗證
     verified: Verified
   players:
     textureType: Texture Type
@@ -138,34 +138,34 @@ admin:
     changePlayerOwner: Please enter the id of user which this player is transfering to：
     deletePlayerNotice: Are you sure to delete this player? It\ permanent.
     targetUser: Target user is :nickname
-    noSuchUser: No such user.
+    noSuchUser: 沒有這個用戶。
     changePlayerNameNotice: Please input new player name：
     emptyPlayerName: Player name cannot be empty.
   plugins:
-    pluginTitle: Plugin
-    pluginAuthor: Author
-    pluginVersion: Version
-    pluginName: Name
-    pluginOperations: Operations
-    pluginDescription: Description
-    pluginDependencies: Dependencies
-    pluginEnabled: Enabled
-    enablePlugin: Enable
-    disablePlugin: Disable
-    configurePlugin: Configure
-    installPlugin: Install
-    pluginInstalling: Installing...
-    updatePlugin: Update
-    pluginUpdating: Updating...
+    pluginTitle: 插件
+    pluginAuthor: 作者
+    pluginVersion: 版本
+    pluginName: 名稱
+    pluginOperations: 操作
+    pluginDescription: 描述
+    pluginDependencies: 依賴項
+    pluginEnabled: 已啟用
+    enablePlugin: 啟用
+    disablePlugin: 停用
+    configurePlugin: 設定
+    installPlugin: 安裝
+    pluginInstalling: 安裝中...
+    updatePlugin: 更新
+    pluginUpdating: 正在更新...
     confirmUpdate: Are you sure to update ":plugin" from :old to :new?
-    deletePlugin: Delete
-    confirmDeletion: Are you sure to delete this plugin?
-    noDependencies: No Dependencies
+    deletePlugin: 刪除
+    confirmDeletion: 你確定要刪除這個插件嗎？
+    noDependencies: 沒有依賴
     whyDependencies: What\s this?
-    noDependenciesNotice: There is no dependency definition in the plugin. It means that the plugin may be not compatible with the current version of Blessing Skin and enabling it may cause unexpected problems. Do you really want to enable the plugin?
-    preparing: Preparing
-    downloadCompleted: Update package download completed.
-    extracting: Extracting update package...
+    noDependenciesNotice: 這個插件沒有指定依賴項。這説明這個插件可能與當前版本的 Blessing Skin 不兼容，啓用它可能會帶來一些不可預期的後果。你確定要啓用這個插件嗎？
+    preparing: 準備中…
+    downloadCompleted: 更新包下載已完成。
+    extracting: 正在提取更新...
     general:
     skin: Skin
     cape: Cape
