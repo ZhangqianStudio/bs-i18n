@@ -42,7 +42,7 @@ public: 公開
 unexistent-user: 無此用戶.
 unexistent-player: 無此角色.
 player-banned: 該角色的所有者已被封禁.
-texture-deleted: 請求的皮膚已被刪除.
+texture-deleted: 請求的材質已被刪除.
 texture-not-uploaded: 此用戶還沒有上傳 :type 模型的材質
 operations: 操作
 user:
