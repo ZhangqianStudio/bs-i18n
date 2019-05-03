@@ -1,19 +1,19 @@
 ---
-option-saved: Option saved.
+option-saved: 選項已儲存。
 homepage:
-  title: Homepage
+  title: 首頁
   home_pic_url:
-    title: Picture URL at Homepage
-    hint: Path relative to homepage or full URL, leave empty to use default image.
+    title: 主頁上的圖片網址
+    hint: 個人首頁的網址，留空以使用預設圖像。
   favicon_url:
-    title: Website Icon
-    hint: Path relative to resources/assets/ or full URL.
-    description: The given image must have same width and height (leave blank to use default icon).
+    title: 网站图标
+    hint: 指向 resources/assets/ 或完整 URL 路徑。
+    description: 給定的圖像必須具有相同的寬度和高度 (留空以使用預設圖示)。
   copyright_prefer:
-    title: Program Copyright
-    description: "You can specify a different style of program copyright for each language. To edit a specific language's corresponding program copyright style, please switch to that language and submit your edit. <br><b>Warning:</b> Any evil modification applied on the footer program copyright (including deleting, modifying author, changing link target) with out permission is <b>FORBIDDEN</b>. The author reserves the right to pursue relevant responsibilities."
+    title: 軟體版權
+    description: "您可以為每種語言指定不同形式的程式版權。若要編輯它們，請切換到該語言並提交您的編輯。 <br><b>警告:</b> <b>禁止</b>對頁脚程式版權進行任何惡意的修改 (包括刪除, 修改作者, 更改連結目標)。相關作者保留承擔相關責任的權利。"
   copyright_text:
-    title: Custom Copyright Text
+    title: 自定義版權文本
     description: Placeholders are available in custom copyright text. e.g. <code>{site_name}</code> & <code>{site_url}</code>. You can also specify a different footer for each language. To edit a specific language's corresponding footer, please switch to that language and submit your edit.
 customJsCss:
   title: Custom CSS/JavaScript
