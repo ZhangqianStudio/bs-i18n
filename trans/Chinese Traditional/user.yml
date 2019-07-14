@@ -3,7 +3,7 @@ used:
   title: Resources Used
   players: Registered players
   storage: Storage used
-cur-score: Current Score
+cur-score: '當前積分:'
 score-notice: Click the score to show introduction.
 sign: Sign
 sign-success: Signed successfully. You got :score scores.
@@ -35,7 +35,7 @@ score-intro:
     We use score system to prevent the behaviors like uplaoding huge amount of textures and registering players casually.
     Either adding players, uplaoding textures or adding a skinlib item to your closet will consume scores.
     :return-score
-    
+
     New users will get :initial_score scores initially, and you can acquire :score-from ~ :score-to scores by daily signing in.
   will-return-score: The score will be returned if you deleted players, uploaded textures or closet items.
   no-return-score: The score will NOT be returned if you deleted players, uploaded textures or closet items.
