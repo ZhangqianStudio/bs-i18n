@@ -1,15 +1,15 @@
 ---
 index:
-  total-users: Registered Users
-  total-players: Players
-  total-textures: Uploaded Textures
-  disk-usage: Disk Usage
-  overview: Overview
-  texture-uploads: Texture Uploads
-  user-registration: User Registration
+  total-users: Usuários Registrados
+  total-players: Jogadores
+  total-textures: Texturas enviadas
+  disk-usage: Uso de disco
+  overview: Visão geral
+  texture-uploads: Envio de Texturas
+  user-registration: Registro de usuário
 users:
   players-count:
-    title: Players Count
+    title: Número de jogadores
   status:
     title: Status
     normal: Normal
