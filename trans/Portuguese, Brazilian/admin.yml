@@ -13,40 +13,40 @@ users:
   status:
     title: Status
     normal: Normal
-    banned: Banned
-    admin: Admin
-    super-admin: Super Admin
+    banned: Banido
+    admin: Administrador
+    super-admin: Super Administrador
   verification:
-    title: Account Verification
+    title: Verificação de Conta
   operations:
-    title: Operations
-    non-existent: No such user.
-    no-permission: You have no permission to operate this user.
-    invalid: Invalid action.
+    title: Operações
+    non-existent: Nenhum usuário encontrado.
+    no-permission: Você não tem Permissão para Modificar esse Usuário.
+    invalid: Ação Inválida.
     email:
-      change: Edit Email
-      existed: ':email is existed.'
-      success: Email changed successfully.
+      change: Editar E-Mail
+      existed: ':Este E-mail Existe.'
+      success: E-Mail Alterado Com Sucesso.
     verification:
-      success: Account verification status switched successfully.
+      success: Status da Verificação da Conta Trocado com Sucesso.
     nickname:
-      change: Edit Nickname
-      success: Nickname changed successfully.
+      change: Editar apelido
+      success: Apelido Alterado Com Sucesso.
     password:
-      change: Edit Password
-      success: Password changed successfully.
+      change: Editar Senha
+      success: Senha Alterada com Sucesso.
     score:
-      success: Score changed successfully.
+      success: Pontuação alterada com sucesso.
     admin:
       set:
-        text: Set as Admin
-        success: The account has been set as admin.
+        text: Colocar como Admin
+        success: A Conta Foi Definida Como Administrador.
       unset:
-        text: Remove Admin
-        success: The account's admin privilege has been removed.
+        text: Remover Administrador
+        success: O privilégio de administrador da conta foi removido.
     ban:
       ban:
-        text: Ban
+        text: Banir
         success: The account has been banned.
       unban:
         text: Unban
