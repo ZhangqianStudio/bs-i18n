@@ -47,32 +47,32 @@ users:
     ban:
       ban:
         text: Banir
-        success: The account has been banned.
+        success: A Conta Foi Banida.
       unban:
-        text: Unban
-        success: The account was not banned anymore.
-      cant-super-admin: You can't ban a super admin.
-      cant-admin: Only super admins are able to ban admins.
+        text: Desbanir
+        success: A Conta não Está Mais Banida.
+      cant-super-admin: Você não Pode Banir um Super Admin.
+      cant-admin: Apenas Super Admins São Capazes de Banir Admins.
     delete:
-      delete: Delete User
-      success: The account has been deleted successfully.
-      cant-super-admin: You can't delete a super admin.
-      cant-admin: You can't delete a admin account.
+      delete: Deletar Usuário
+      success: A Conta foi Deletada com Sucesso.
+      cant-super-admin: Você não Pode Deletar um Super Admin.
+      cant-admin: Você não pode Deletar uma Conta Admin.
 players:
-  no-permission: You have no permission to operate this player.
+  no-permission: Você não tem Permissão para Modificar este Jogador.
   operations:
-    title: Operations
+    title: Operações
   preference:
-    success: The preference of player ":player" has been changed to :preference
+    success: A Preferência do Jogador ":player" Foi Alterada para :preference
   textures:
-    change: Change Textures
-    non-existent: No such texture tid.:tid
-    success: The textures of :player has been updated.
+    change: Mudar Texturas
+    non-existent: Não Existe a Textura tid.:tid
+    success: As Texturas do :player foram Atualizadas.
   name:
-    success: Player name has been updated to :player
+    success: O Nome do Jogador foi Alterado para :player
   owner:
-    change: Change Owner
-    success: The player :player was transferred to user :user.
+    change: Alterar Dono
+    success: O :player Foi Transferido para :user.
   delete:
     delete: Delete
     success: The player has been deleted successfully.
@@ -141,11 +141,11 @@ update:
       To change the default update source, please refer to <a target="_blank" href="https://github.com/printempw/blessing-skin-server/wiki/%E6%9B%B4%E6%96%B0%E6%BA%90%E5%88%97%E8%A1%A8">this wiki article</a>.
   download:
     downloading: Downloading update package...
-    size: "Size of package:"
+    size: "Tamanho do Pacote:"
   errors:
-    prefix: "An error occured: "
-    connection: We can't connect to the update source. :error
-    write-permission: Unable to create the cache directory. Please check the permission.
-    unzip: "Failed to extract update package. Error code: "
-    overwrite: Unable to overwrite files.
-invalid-action: Invalid action
+    prefix: "Ocorreu um Erro: "
+    connection: Não Foi Possivel de Conectar à fonte de Atualização. :error
+    write-permission: Não foi possível criar o diretório de cache. Por favor, verifique a permissão.
+    unzip: "Falha ao extrair o pacote de atualização. Código de erro: "
+    overwrite: Impossivel Trancrever Arquivos.
+invalid-action: Ação Inválida
