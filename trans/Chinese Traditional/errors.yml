@@ -9,7 +9,7 @@ http:
 general:
   title: 發生錯誤
 exception:
-  code: '錯誤代碼 :code'
+  code: '錯誤代碼: :code'
   detail: '詳細内容: :msg'
   message: |
     哎呀, 好像出了點事。（請在 .env 文件中啓用 APP_DEBUG 查看詳細訊息）
