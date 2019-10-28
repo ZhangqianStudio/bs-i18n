@@ -122,25 +122,25 @@ update:
     pre-release-warning: Esta actualización es un pre-lanzamiento, por favor, compruebe dos veces antes de actualizar.
     versions:
       latest: "Última versión:"
-      current: "Current Version:"
-    release-time: "Release Time:"
-    pre-release: You are now using pre-release version.
+      current: "Versión Actual:"
+    release-time: "Fecha de Lanzamiento:"
+    pre-release: Ahora está usando una versión de pre-lanzamiento.
     change-log:
-      text: "Change Log:"
-      empty: Empty
+      text: "Lista de cambios:"
+      empty: Vacío
     downloads:
-      text: "Download Link:"
-      link: Click to download full update package.
-    check-github: <a href=":url" target="_blank" class="btn btn-default pull-right">Check GitHub Releases</a>
-    button: Update Now
+      text: "Enlace de Descarga:"
+      link: Click para descargar el paquete de actualización completo.
+    check-github: <a href=":url" target="_blank" class="btn btn-default pull-right">Comprueba Las Versiones De GitHub</a>
+    button: Actualizar ahora
   cautions:
-    title: Cautions
+    title: Precauciones
     text: |
-      Please choose update source according to your host's network environment.
-      Low-speed connection between update source and your host will cause long-time loading at checking and downloading page.
-      To change the default update source, please refer to <a target="_blank" href="https://github.com/printempw/blessing-skin-server/wiki/%E6%9B%B4%E6%96%B0%E6%BA%90%E5%88%97%E8%A1%A8">this wiki article</a>.
+      Por favor, elija la fuente de actualización según el entorno de red de su host.
+      La conexión de baja velocidad entre la fuente de actualización y su host causará una carga lenta a la hora de comprobar y descargar la página.
+      Para cambiar la fuente de actualización por defecto, por favor consulte <a target="_blank" href="https://github.com/printempw/blessing-skin-server/wiki/%E6%9B%B4%E6%96%B0%E6%BA%90%E5%88%97%E8%A1%A8">Éste Artículo</a>.
   download:
-    downloading: Downloading update package...
+    downloading: Descargando Paquete De Actualización...
     size: "Tamaño del paquete:"
   errors:
     prefix: "Se ha producido un error: "
