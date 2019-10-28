@@ -17,46 +17,46 @@ users:
     admin: Administrador
     super-admin: Super Administrador
   verification:
-    title: Account Verification
+    title: Verificación De La Cuenta
   operations:
-    title: Operations
-    non-existent: No such user.
-    no-permission: You have no permission to operate this user.
-    invalid: Invalid action.
+    title: Operaciones
+    non-existent: El Usuario No Existe.
+    no-permission: No Tienes Permiso Para Operar Este Usuario.
+    invalid: Acción inválida.
     email:
-      change: Edit Email
-      existed: ':email is existed.'
-      success: Email changed successfully.
+      change: Modificar Email
+      existed: ':email existe.'
+      success: Email cambiado correctamente.
     verification:
-      success: Account verification status switched successfully.
+      success: Estado de verificación de la cuenta cambiado correctamente.
     nickname:
-      change: Edit Nickname
-      success: Nickname changed successfully.
+      change: Editar Nombre
+      success: El Nombre Se Ha Modificado Correctamente.
     password:
-      change: Edit Password
-      success: Password changed successfully.
+      change: Cambiar Contraseña
+      success: Contraseña Cambiada Correctamente.
     score:
-      success: Score changed successfully.
+      success: Puntuación Cambiada Correctamente.
     admin:
       set:
-        text: Set as Admin
-        success: The account has been set as admin.
+        text: Establecer Como Administrador
+        success: La cuenta ha sido establecida como administrador.
       unset:
-        text: Remove Admin
-        success: The account's admin privilege has been removed.
+        text: Eliminar Admin
+        success: El privilegio de administrador de la cuenta ha sido eliminado.
     ban:
       ban:
-        text: Ban
-        success: The account has been banned.
+        text: Bloquear
+        success: La cuenta ha sido bloqueada.
       unban:
-        text: Unban
-        success: The account was not banned anymore.
-      cant-super-admin: You can't ban a super admin.
-      cant-admin: Only super admins are able to ban admins.
+        text: Desbloquear
+        success: La cuenta ha sido desbloqueada.
+      cant-super-admin: No puedes bloquear a un super admin.
+      cant-admin: Sólo los SuperAdministradores pueden prohibir Administradores.
     delete:
-      delete: Delete User
-      success: The account has been deleted successfully.
-      cant-super-admin: You can't delete a super admin.
+      delete: Eliminar Usuario
+      success: La Cuenta Ha Sido Eliminada Correctamente.
+      cant-super-admin: No puedes eliminar a un super admin.
       cant-admin: You can't delete a admin account.
 players:
   no-permission: You have no permission to operate this player.
