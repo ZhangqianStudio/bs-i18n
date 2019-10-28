@@ -1,21 +1,21 @@
 ---
 index:
-  total-users: Registered Users
-  total-players: Players
-  total-textures: Uploaded Textures
-  disk-usage: Disk Usage
-  overview: Overview
-  texture-uploads: Texture Uploads
-  user-registration: User Registration
+  total-users: Usuarios Registrados
+  total-players: Jugadores
+  total-textures: Texturas Subidas
+  disk-usage: Uso Del Disco
+  overview: Resumen
+  texture-uploads: Subidas De Texturas
+  user-registration: Registro De Usuario
 users:
   players-count:
-    title: Players Count
+    title: Número De Jugadores
   status:
-    title: Status
+    title: Estado
     normal: Normal
-    banned: Banned
-    admin: Admin
-    super-admin: Super Admin
+    banned: Bloqueado
+    admin: Administrador
+    super-admin: Super Administrador
   verification:
     title: Account Verification
   operations:
