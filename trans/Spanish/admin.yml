@@ -21,7 +21,7 @@ users:
   operations:
     title: Operaciones
     non-existent: El Usuario No Existe.
-    no-permission: No Tienes Permiso Para Operar Este Usuario.
+    no-permission: No Tienes Permiso Para Controlar Este Usuario.
     invalid: Acción inválida.
     email:
       change: Modificar Email
@@ -57,31 +57,31 @@ users:
       delete: Eliminar Usuario
       success: La Cuenta Ha Sido Eliminada Correctamente.
       cant-super-admin: No puedes eliminar a un super admin.
-      cant-admin: You can't delete a admin account.
+      cant-admin: No puedes eliminar una cuenta de administrador.
 players:
-  no-permission: You have no permission to operate this player.
+  no-permission: No tienes permiso para controlar este jugador.
   operations:
-    title: Operations
+    title: Operaciones
   preference:
-    success: The preference of player ":player" has been changed to :preference
+    success: La preferencia del jugador ":player" ha sido cambiada a :preference
   textures:
-    change: Change Textures
-    non-existent: No such texture tid.:tid
-    success: The textures of :player has been updated.
+    change: Modificar texturas
+    non-existent: Textura Inexistente tid.:tid
+    success: Las texturas de :player han sido actualizadas.
   name:
-    success: Player name has been updated to :player
+    success: El nombre del Jugador ha sido actualizado a :player
   owner:
-    change: Change Owner
-    success: The player :player was transferred to user :user.
+    change: Cambiar propietario
+    success: El jugador :player fue transferido al usuario :user.
   delete:
-    delete: Delete
-    success: The player has been deleted successfully.
+    delete: Eliminar
+    success: El jugador ha sido eliminado correctamente.
 customize:
   change-color:
-    title: Change Theme Color
-    success: Theme color updated.
+    title: Cambiar color del tema
+    success: Color del tema actualizado.
   colors:
-    blue: Blue (Default)
+    blue: Azul (por defecto)
     blue-light: Blue Light
     yellow: Yellow
     yellow-light: Yellow Light
@@ -141,11 +141,11 @@ update:
       To change the default update source, please refer to <a target="_blank" href="https://github.com/printempw/blessing-skin-server/wiki/%E6%9B%B4%E6%96%B0%E6%BA%90%E5%88%97%E8%A1%A8">this wiki article</a>.
   download:
     downloading: Downloading update package...
-    size: "Size of package:"
+    size: "Tamaño del paquete:"
   errors:
-    prefix: "An error occured: "
-    connection: We can't connect to the update source. :error
-    write-permission: Unable to create the cache directory. Please check the permission.
-    unzip: "Failed to extract update package. Error code: "
-    overwrite: Unable to overwrite files.
-invalid-action: Invalid action
+    prefix: "Se ha producido un error: "
+    connection: No podemos conectar con la fuente de actualización. :error
+    write-permission: No se puede crear el directorio de caché. Por favor, compruebe el permiso.
+    unzip: "Error al extraer el paquete de actualización. Código de error: "
+    overwrite: No se pueden sobrescribir archivos.
+invalid-action: Acción inválida
