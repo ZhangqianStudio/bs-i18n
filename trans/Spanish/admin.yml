@@ -82,46 +82,46 @@ customize:
     success: Color del tema actualizado.
   colors:
     blue: Azul (por defecto)
-    blue-light: Blue Light
-    yellow: Yellow
-    yellow-light: Yellow Light
-    green: Green
-    green-light: Green Light
-    purple: Purple
-    purple-light: Purple Light
-    red: Red
-    red-light: Red Light
-    black: Black
-    black-light: Black Light
+    blue-light: Azul Claro
+    yellow: Amarillo
+    yellow-light: Amarillo Claro
+    green: Verde
+    green-light: Verde Claro
+    purple: Morado
+    purple-light: Morado Claro
+    red: Rojo
+    red-light: Rojo Claro
+    black: Negro
+    black-light: Oscuro
 plugins:
   operations:
-    title: Operations
-    enabled: ':plugin has been enabled.'
+    title: Operaciones
+    enabled: ':plugin ha sido activado.'
     unsatisfied:
-      notice: There are unsatisfied dependencies in the plugin, therefore we can't enable it. Please install or update the plugins listed below.
-      disabled: The <code>:name</code> plugin is not enabled
-      version: The version of <code>:name</code> does not satisfies the constraint <code>:constraint</code>
-    disabled: ':plugin has been disabled.'
-    deleted: The plugin was deleted successfully.
-    no-config-notice: The plugin is not installed or doesn't provide a configuration page.
-    not-found: No such plugin.
+      notice: Hay dependencias no cumplidas en el plugin, por lo tanto no podemos activarlo. Instale o actualice los plugins listados a continuación.
+      disabled: El complemento <code>:name</code> no está habilitado
+      version: La versión de <code>:name</code> no satisface la restricción <code>:constraint</code>
+    disabled: ':plugin ha sido desactivado.'
+    deleted: El plugin se ha eliminado correctamente.
+    no-config-notice: El plugin no está instalado o no proporciona una página de configuración.
+    not-found: Plugin Inexistente.
   market:
-    connection-error: Unable to connect to the plugins registry (to change the plugins registry URL, please refer to http://t.cn/Rk6X37l). :error
-    non-existent: The plugin :plugin does not exist.
-    download-failed: Unable to download the plugin. :error
-    shasum-failed: The downloaded file failed hash check, please retry.
-    unzip-failed: Unable to extract the plugin. :error
-    install-success: Plugin was installed.
-  empty: No result
+    connection-error: No se puede conectar al registro de plugins (para cambiar la URL del registro de plugins, por favor refiérase a http://t.cn/Rk6X37l). :error
+    non-existent: El plugin :plugin no existe.
+    download-failed: No se puede descargar el plugin. :error
+    shasum-failed: El archivo descargado falló la comprobación hash, por favor inténtelo de nuevo.
+    unzip-failed: No se puede extraer el plugin. :error
+    install-success: Plugin instalado.
+  empty: Sin resultados
 update:
-  complete: Update completed
+  complete: Actualización completada
   info:
-    title: Update Information
-    up-to-date: Already up-to-date.
-    available: New version available.
-    pre-release-warning: This update is a pre-release, please double check before updating.
+    title: Actualizar información
+    up-to-date: Ya está actualizado.
+    available: Hay una nueva versión disponible.
+    pre-release-warning: Esta actualización es un pre-lanzamiento, por favor, compruebe dos veces antes de actualizar.
     versions:
-      latest: "Latest Version:"
+      latest: "Última versión:"
       current: "Current Version:"
     release-time: "Release Time:"
     pre-release: You are now using pre-release version.
