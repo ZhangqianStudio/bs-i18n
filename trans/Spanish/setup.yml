@@ -2,55 +2,55 @@
 database:
   connection-error: "No se puede conectar a la base de datos :type, favor comprobar su configuración. El servidor respondió con: :msg"
   connection-success: Se conectó a la base de datos de destino :type [:server] con éxito, haga clic en SIGUIENTE para iniciar la instalación.
-  table-already-exists: There are some tables already exist in target database, whose names conflict with ones we are going to create. To avoid data loss, please manually delete these tables :tables, or set a different table prefix.
+  table-already-exists: Ya existen algunas tablas en la base de datos de destino, cuyos nombres entran en conflicto con las que vamos a crear. Para evitar pérdida de datos, por favor elimine manualmente estas tablas :tables, o establezca un prefijo de tabla diferente.
 file:
-  permission-error: Unable to create textures folder, please check the directory permissions or place one manually.
-  no-dot-env: Unable to find environment configuration file. Please rename .env.example to .env (please refer to setup manual).
-  dot-env-no-read-permission: Unable to read .env configuration file. Please check the file permission.
+  permission-error: No se puede crear la carpeta de texturas, por favor compruebe los permisos del directorio o coloque uno manualmente.
+  no-dot-env: No se puede encontrar el archivo de configuración de entorno. Por favor, renombre .env.example a .env (consulte el manual de configuración).
+  dot-env-no-read-permission: No se puede leer el archivo de configuración .env. Por favor, compruebe el permiso del archivo.
 permissions:
-  storage: Unable to write to storage directory, please check the permissions.
+  storage: No se puede escribir en el directorio de almacenamiento, por favor compruebe los permisos.
 disabled-functions:
-  escapeshellarg: "The escapeshellarg function is disabled in your php.ini configuration. Please contact your web hosting provider to enable it or perform the installation manually: http://t.cn/REzBZUe"
+  escapeshellarg: "La función escapeshellarg está deshabilitada en la configuración de php.ini. Por favor, póngase en contacto con su proveedor de alojamiento web para habilitarla o realizar la instalación manualmente: http://t.cn/REzBZUe"
 locked:
-  title: Already installed
-  text: It appears that you have already installed Blessing Skin Server. To reinstall, please delete the tables in your database first, or use a new table prefix.
-  button: Back to homepage
+  title: Ya instalado
+  text: Parece que ya tienes instalado Blessing Skin Server. Para reinstalar, por favor elimine primero las tablas en su base de datos, o use un nuevo prefijo de tabla.
+  button: Volver al inicio
 updates:
   master:
-    title: Update Wizard - Blessing Skin Server
+    title: Asistente de actualizacones - Blessing Skin Server
   welcome:
-    title: One more step
+    title: Un paso más
     text: |
-      Welcome! You are going to update to Blessing Skin Server v:version.
-      We need to apply some updates to your database, click NEXT to continue.
-    button: Next
+      ¡Bienvenido! Vas a actualizar a Blessing Skin Server v:version.
+      Necesitamos aplicar algunas actualizaciones a tu base de datos, haz clic en NEXT para continuar.
+    button: Siguiente
   success:
-    title: Update complete
-    text: Blessing Skin Server has been successfully updated to v:version.
-    tips: "Update Tips:"
+    title: Actualización finalizada
+    text: Blessing Skin Server se ha actualizado correctamente a v:version.
+    tips: "Consejos de actualización:"
 wizard:
   master:
-    title: Install Wizard - Blessing Skin Server
+    title: Asistente de actualizacones - Blessing Skin Server
   welcome:
-    title: Welcome
-    button: Next
-    text: Welcome to Blessing Skin Server v:version!
+    title: Bienvenido
+    button: Siguiente
+    text: Bienvenido a Blessing Skin Server v:version!
   info:
-    title: Information needed
-    button: Run install
-    text: To proceed with the installation, please fill this form with the details of the initial admin account. Don't worry, you can always change these settings later.
-    admin-email: Admin Email
-    admin-notice: This is the <b>UNIQUE</b> super admin account who can GIVE or CANCEL other users' admin privilege.
-    password: Password
-    pwd-notice: <b>Attention:</b> You will need the password to log in. Please keep it at a secure place.
-    confirm-pwd: Confirm password
-    site-name: Site name
-    site-name-notice: This will be shown on every page.
-    secure: Security
-    secure-notice: Generate random APP_KEY and SALT to make your site secured.
+    title: Necesitamos más información
+    button: Ejecutar instalación
+    text: Para continuar con la instalación, por favor rellene este formulario con los detalles de la cuenta de administrador inicial. No te preocupes, siempre puedes cambiar estos ajustes más tarde.
+    admin-email: Correo del administrador
+    admin-notice: Esta es la cuenta de superadministrador <b>UNIQUE</b> que puede DAR o CANCELAR los privilegios de administrador de otros usuarios.
+    password: Contraseña
+    pwd-notice: <b>Atención:</b> Necesitará la contraseña para iniciar sesión. Por favor, guárdelo en un lugar seguro.
+    confirm-pwd: Confirmar la contraseña
+    site-name: Nombre del sitio
+    site-name-notice: Esto se mostrará en todas las páginas.
+    secure: Seguridad
+    secure-notice: Generar al azar APP_KEY y SALT para hacer su sitio seguro.
   finish:
-    title: Installation complete
-    text: Blessing Skin Server has been installed. Thank you, and enjoy!
+    title: Instalación completada
+    text: Blessing Skin Server ha sido instalado. ¡Gracias y disfrútalo!
 integrity-check:
-  title: We could not complete the installation.
-  description: 'The automatic upgrade script failed to update your database. <a target="_blank" href="https://github.com/printempw/blessing-skin-server/wiki/%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85-Blessing-Skin#-%E5%8D%87%E7%BA%A7%E8%87%B3-bs-v350">Learn more</a>'
+  title: No hemos podido completar la instalación.
+  description: 'El script de actualización automática falló al actualizar su base de datos. <a target="_blank" href="https://github.com/printempw/blessing-skin-server/wiki/%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85-Blessing-Skin#-%E5%8D%87%E7%BA%A7%E8%87%B3-bs-v350">Aprenda más</a>'
