@@ -64,18 +64,18 @@ upload:
   invalid-hd-skin: Skin HD inválida (ancho y altura debe ser divisible por 32)
   lack-score: No tienes suficiente puntuación para subir esta textura.
   repeated: La textura ya está cargada por otra persona. Puedes añadirla a tu armario directamente.
-  success: Textura :name se ha subido correctamente.
+  success: Textura :name se ha subido exitosamente.
 delete:
-  success: La textura se eliminó correctamente.
+  success: La textura se eliminó exitosamente.
 privacy:
   change-privacy: Administrar privacidad
   set-as-private: Establecer como privado
   set-as-public: Establecer como público
-  success: La textura se estableció a :privacy correctamente.
+  success: La textura se estableció a :privacy exitosamente.
 rename:
   success: La textura fue renombrada a :name exitosamente.
 model:
-  success: El modelo de la textura se cambió a :model correctamente.
-  duplicate: "The same texture available for the chosen model already exists in skinlib (TID: :tid). You can add it to your closet directly."
-no-permission: You have no permission to moderate this texture.
-non-existent: No such texture.
+  success: El modelo de la textura se cambió a :model exitosamente.
+  duplicate: "La misma textura disponible para el modelo elegido ya existe en skinlib (TID: :tid). Puedes añadirla a tu armario directamente."
+no-permission: No tienes permiso para moderar esta textura.
+non-existent: No existe esa textura.
