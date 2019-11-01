@@ -1,22 +1,22 @@
 ---
-option-saved: Option saved.
+option-saved: Opción guardada.
 homepage:
-  title: Homepage
+  title: Inicio
   home_pic_url:
-    title: Picture URL at Homepage
-    hint: Path relative to homepage or full URL, leave empty to use default image.
+    title: URL de la imagen en la página de inicio
+    hint: Ruta relativa a la página de inicio o URL completa, dejar en blanco para usar la imagen por defecto.
   favicon_url:
-    title: Website Icon
-    hint: Path relative to resources/assets/ or full URL.
-    description: The given image must have same width and height (leave blank to use default icon).
+    title: Icono del sitio web
+    hint: Ruta relativa a recursos/assets/ o URL completa.
+    description: La imagen dada debe tener el mismo ancho y altura (dejar en blanco para usar el icono por defecto).
   copyright_prefer:
-    title: Program Copyright
-    description: "You can specify a different style of program copyright for each language. To edit a specific language's corresponding program copyright style, please switch to that language and submit your edit. <br><b>Warning:</b> Any evil modification applied on the footer program copyright (including deleting, modifying author, changing link target) with out permission is <b>FORBIDDEN</b>. The author reserves the right to pursue relevant responsibilities."
+    title: Copyright del programa
+    description: "Puede especificar un estilo diferente de copyright del programa para cada idioma. Para editar el correspondiente estilo de copyright de un idioma específico, por favor cambie a ese idioma y someta su edición. <br><b>Advertencia:</b> Cualquier modificación mala aplicada al copyright del programa de pie de página (incluyendo eliminación, modificando el autor, cambiando el destino del enlace) sin permiso es <b>FORBIDO</b>. El autor se reserva el derecho a asumir las responsabilidades pertinentes."
   copyright_text:
-    title: Custom Copyright Text
-    description: Placeholders are available in custom copyright text. e.g. <code>{site_name}</code> & <code>{site_url}</code>. You can also specify a different footer for each language. To edit a specific language's corresponding footer, please switch to that language and submit your edit.
+    title: Texto personalizado de copyright
+    description: Los marcadores de posición están disponibles en el texto de copyright personalizado. ej. <code>{site_name}</code> & <code>{site_url}</code>. También puedes especificar un pie de página diferente para cada idioma. Para editar el pie de página de un idioma específico, por favor cambie a ese idioma y someta su edición.
 customJsCss:
-  title: Custom CSS/JavaScript
+  title: CSS/JavaScript personalizado
   message: |
     The contents will be attached to &lt;style&gt; and &lt;script&gt; tags.<br>
     - Here are some useful examples: <a href="https://github.com/printempw/blessing-skin-server/wiki/Examples-of-custom-CSS-JavaScript">Examples of Custom CSS JavaScript @GitHub WiKi</a>
