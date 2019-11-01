@@ -1,10 +1,11 @@
 ---
-username: ':attribute format is invalid.'
-player_name: 'The :attribute contains invalid character.'
-texture_name_regexp: 'The :attribute contains invalid character.'
-no_special_chars: 'The :attribute must not contain special characters.'
-preference: 'The :attribute must be default or slim.'
-model: 'The :attribute must be steve, alex or cape.'
+#Blessing Skin
+username: 'El formato:attribute es inválido.'
+player_name: 'El campo :attribute contiene un carácter no válido.'
+texture_name_regexp: 'El campo :attribute contiene un carácter no válido.'
+no_special_chars: 'El campo :attribute no debe contener caracteres especiales.'
+preference: 'El atributo :attribute debe ser predeterminado o slim.'
+model: 'El atributo :attribute debe ser steve, alex o capa.'
 accepted: 'The :attribute must be accepted.'
 active_url: 'The :attribute is not a valid URL.'
 after: 'The :attribute must be a date after :date.'
@@ -67,9 +68,21 @@ string: 'The :attribute must be a string.'
 timezone: 'The :attribute must be a valid zone.'
 unique: 'The :attribute has already been taken.'
 url: 'The :attribute format is invalid.'
+#--------------------------------------------------------------------------
+#Custom Validation Language Lines
+#--------------------------------------------------------------------------
+#Here you may specify custom validation messages for attributes using the
+#convention "attribute.rule" to name the lines. This makes it quick to
+#specify a specific custom language line for a given attribute rule.
 custom:
   attribute-name:
     rule-name: custom-message
+#--------------------------------------------------------------------------
+#Custom Validation Attributes
+#--------------------------------------------------------------------------
+#The following language lines are used to swap attribute place-holders
+#with something more reader friendly such as E-Mail Address instead
+#of "email". This simply helps us make messages a little cleaner.
 attributes:
   player_name: player name
   new_player_name: player name
