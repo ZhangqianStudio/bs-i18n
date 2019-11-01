@@ -37,33 +37,33 @@ score-intro:
     :return-score
 
     Nuevos usuarios obtendrán :initial_score inicialmente, y puedes adquirir puntajes :score-from ~ :score-to iniciando su sesión diariamente.
-  will-return-score: The score will be returned if you deleted players, uploaded textures or closet items.
-  no-return-score: The score will NOT be returned if you deleted players, uploaded textures or closet items.
+  will-return-score: La puntuación se devolverá si eliminas jugadores, texturas subidas o elementos de armario.
+  no-return-score: La puntuación NO se devolverá si eliminas jugadores, texturas subidas o elementos de armario.
   rates:
-    storage: ':score scores = 1 KB storage'
-    player: ':score scores = 1 player'
-    closet: ':score socres = 1 closet item'
+    storage: ':score puntajes = 1 KB de almacenamiento'
+    player: ':score puntajes = 1 jugador'
+    closet: ':score puntajes = 1 elemento de armario'
 closet:
-  upload: Upload Texture
-  search: Search Texture
-  type-to-search: Type to search
-  switch-category: Switch Category
-  view: View in skin library
-  more: More
-  set-avatar: Set as avatar
+  upload: Subir textura
+  search: Buscar textura
+  type-to-search: Escriba para buscar
+  switch-category: Cambiar categoría
+  view: Ver en la colección de skins
+  more: Más
+  set-avatar: Establecer como avatar
   use-as:
-    button: Apply...
-    reset: Clear selected
-    title: Which player should be applied to?
-    empty: It seems that you own no player...
-    add: Add a new player
+    button: Aplicar...
+    reset: Borrar seleccionado
+    title: '¿A qué jugador se debe aplicar?'
+    empty: Parece que no tienes jugador...
+    add: Añadir un nuevo jugador
   add:
-    success: Added :name to closet successfully.
-    repeated: You have already added this texture.
-    not-found: We cannot find this texture.
-    lack-score: You don't have enough score to add it to closet.
+    success: Añadido :name al armario con éxito.
+    repeated: Ya has añadido esta textura.
+    not-found: No podemos encontrar esta textura.
+    lack-score: No tienes suficiente puntuación para añadirlo al armario.
   rename:
-    title: Rename item
+    title: Renombrar elemento
     success: The item is successfully renamed to :name
   remove:
     title: Remove from closet
