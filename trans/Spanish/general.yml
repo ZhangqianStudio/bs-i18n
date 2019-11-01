@@ -1,32 +1,32 @@
 ---
-index: Homepage
-skinlib: Skin Library
-user-center: User Center
-logout: Log Out
-login: Log In
-register: Register Now
-profile: User Profile
-admin-panel: Admin Panel
-explore: Explore
-manage: Manage
-anonymous: Guest
-back: Back
-dashboard: Dashboard
-my-closet: Closet
-player-manage: Players
-user-manage: Users
-plugin-manage: Plugins
-plugin-market: Plugin Market
-plugin-configs: Plugin Configs
-customize: Customize
-options: Options
-score-options: Score Options
-check-update: Check Update
-download-update: Download Updates
-close: Close
+index: Inicio
+skinlib: Colección de skins
+user-center: Centro de usuario
+logout: Cerrar sesión
+login: Iniciar sesión
+register: Crear cuenta
+profile: Perfil de usuario
+admin-panel: Panel de administración
+explore: Explorar
+manage: Gestionar
+anonymous: Visitante
+back: Volver
+dashboard: Cuadro de mandos
+my-closet: Armario
+player-manage: Jugadores
+user-manage: Usuarios
+plugin-manage: Complementos
+plugin-market: Mercado de complementos
+plugin-configs: Configs de complementos
+customize: Personalizar
+options: Opciones
+score-options: Opciones de puntaje
+check-update: Comprobar actualización
+download-update: Descargar actualizaciones
+close: Cerrar
 skin: Skin
-cape: Cape
-loading: Loading
+cape: Capa
+loading: Cargando
 texture-preview: Texture Preview
 walk: Walk
 run: Run
