@@ -75,52 +75,52 @@ closet:
   switch3dPreview: Cambiar a preestreno 3D
   removeFromClosetNotice: '¿Seguro que quieres eliminar esta textura de tu armario?'
   emptySelectedPlayer: Ningún jugador está seleccionado.
-  emptySelectedTexture: No hay textura seleccionada.
-  renameClosetItem: Set a new name for this item：
+  emptySelectedTexture: Ninguna textura está seleccionada.
+  renameClosetItem: Asígnale un nombre nuevo a este elemento：
 player:
-  changePlayerName: Please enter the player name：
-  emptyPlayerName: Empty player name.
-  clearTexture: Sure to clear the skins & cape of this player?
-  deletePlayer: Sure to delete this player?
-  deletePlayerNotice: It\s permanent. No backups.
-  chooseClearTexture: Choose texture types you want to clear
-  noClearChoice: You haven\t choose any types
+  changePlayerName: Por favor, introduzca el nombre del jugador：
+  emptyPlayerName: Nombre de jugador vacío.
+  clearTexture: '¿Seguro de remover los skins y la capa de este jugador?'
+  deletePlayer: '¿Seguro que quieres eliminar este jugador?'
+  deletePlayerNotice: Es permanente. No hay copias de seguridad.
+  chooseClearTexture: Elige los tipos de texturas que quieras remover
+  noClearChoice: No has escogido ningunos tipos
 profile:
-  setAvatar: Sure to set this as your avatar?
-  setAvatarNotice: The head segment of skin will bu used.
-  emptyNewNickName: Empty new nickname.
-  changeNickName: Sure to set your nickname to :new_nickname?
-  emptyPassword: Original password is required.
-  emptyNewPassword: Empty new password.
-  emptyNewEmail: Empty new email address.
-  changeEmail: Sure to change your email address to :new_email?
-  emptyDeletePassword: Please enter the current password：
+  setAvatar: '¿Seguro que quieres establecer esto como tu avatar?'
+  setAvatarNotice: El segmento de cabeza del skin se usará.
+  emptyNewNickName: Apodo nuevo vacío.
+  changeNickName: '¿Seguro que quiere asignar :new_nickname como su apodo?'
+  emptyPassword: Se requiere la contraseña original.
+  emptyNewPassword: Contraseña nueva vacía.
+  emptyNewEmail: Dirección de correo electrónico nueva vacía.
+  changeEmail: '¿Seguro que quiere cambiar su dirección de correo electrónico a :new_email?'
+  emptyDeletePassword: Por favor, introduzca la contraseña actual：
 admin:
   operationsTitle:
     users:
-      ban: Ban
-      unban: Unban
-      setAdmin: Set as admin
-      unsetAdmin: Remove admin
-      deleteUser: Delete user
-      cannotDeleteAdmin: You can\t delete admins.
-      cannotDeleteSuperAdmin: You can\t delete super admins.
-      changeEmail: Edit email
-      changeNickName: Edit nickname
-      changePassword: Edit password
-      changeVerification: Switch verification status
-      newUserEmail: Please enter the new email：
-      newUserNickname: Please enter the new nickname：
-      newUserPassword: Please enter the new password：
-      deleteUserNotice: Are you sure to delete this user? It\s permanent.
-      scoreTip: Press ENTER to submit new score
-      inspectHisOwner: Click to inspect the owner of this player
-      inspectHisPlayers: Click to inspect the players he owns
+      ban: Banear
+      unban: Desbanear
+      setAdmin: Establecer como administrador
+      unsetAdmin: Eliminar administrador
+      deleteUser: Eliminar usuario
+      cannotDeleteAdmin: No puedes eliminar administradores.
+      cannotDeleteSuperAdmin: No puedes eliminar superadministradores.
+      changeEmail: Editar email
+      changeNickName: Editar apodo
+      changePassword: Editar contraseña
+      changeVerification: Cambiar estado de verificación
+      newUserEmail: Por favor, introduzca el nuevo correo：
+      newUserNickname: Por favor, introduzca el nuevo apodo：
+      newUserPassword: Por favor, introduzca la nueva contraseña：
+      deleteUserNotice: '¿Está seguro de eliminar este usuario? Es permanente.'
+      scoreTip: Presiona ENTRAR para someter nueva puntuación
+      inspectHisOwner: Haga clic para inspeccionar al propietario de este jugador
+      inspectHisPlayers: Haz clic para inspeccionar a los jugadores que posee
   status:
-    banned: Banned
+    banned: Baneado
     normal: Normal
-    admin: Admin
-    superAdmin: Super Admin
+    admin: Administrador
+    superAdmin: Superadministrador
   verification:
     unverified: Sin verificar
     verified: Verificado
@@ -175,5 +175,5 @@ admin:
     cancel: Cancelar
     more: Más
     pagination: Página :page total :total :total
-    searchResult: (Search result of keyword ":keyword")
-    noResult: No result.
+    searchResult: (Resultados de búsqueda de la palabra clave ":keyword")
+    noResult: Sin resultados.
