@@ -1,7 +1,7 @@
 ---
 database:
-  connection-error: "Unable to connect to the target :type database, please check your configuration. The server replied with: :msg"
-  connection-success: Connect to the target :type database [:server] successfully, just click NEXT to start installation.
+  connection-error: "No se puede conectar a la base de datos :type, favor comprobar su configuración. El servidor respondió con: :msg"
+  connection-success: Se conectó a la base de datos de destino :type [:server] con éxito, haga clic en SIGUIENTE para iniciar la instalación.
   table-already-exists: There are some tables already exist in target database, whose names conflict with ones we are going to create. To avoid data loss, please manually delete these tables :tables, or set a different table prefix.
 file:
   permission-error: Unable to create textures folder, please check the directory permissions or place one manually.
