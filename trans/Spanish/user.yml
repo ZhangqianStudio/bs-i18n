@@ -111,24 +111,24 @@ profile:
     title: '¿Cambiar avatar?'
     notice: Haz clic en el icono del engranaje "<i class="fa fa-cog"></i>" de cualquier aspecto de tu armario, luego haz clic en "Establecer como avatar". Cortaremos el segmento de cabeza de ese skin para ti. Si no hay ningún icono como este, por favor intenta desabilitando su bloqueador de anuncios.
     wrong-type: No puedes establecer una capa como avatar.
-    success: New avatar was set successfully.
+    success: Nuevo avatar se ha establecido correctamente.
   password:
-    title: Change Password
-    old: Old Password
-    new: New Password
-    confirm: Repeat Password
-    button: Change password
-    wrong-password: Wrong original password.
-    success: Password updated successfully, please log in again.
+    title: Cambiar contraseña
+    old: Contraseña antigua
+    new: Contraseña nueva
+    confirm: Repetir contraseña
+    button: Cambiar contraseña
+    wrong-password: Contraseña original incorrecta.
+    success: Contraseña actualizada con éxito, por favor inicie sesión de nuevo.
   nickname:
-    title: Change Nickname
-    empty: No nickname is set now.
-    rule: Whatever you like expect special characters
-    success: Nickname is successfully updated to :nickname
+    title: Cambiar apodo
+    empty: No se ha establecido ningún apodo ahora.
+    rule: Lo que quieras excepto caracteres especiales
+    success: Apodo actualizado correctamente a :nickname
   email:
-    title: Change Email
-    new: New Email
-    password: Current Password
+    title: Cambiar dirección de correo electrónico
+    new: Nueva dirección de correo electrónico
+    password: Contraseña actual
     button: Cambiar email
     wrong-password: Contraseña incorrecta.
     existed: Esta dirección de correo electrónico está ocupada.
