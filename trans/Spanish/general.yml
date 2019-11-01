@@ -15,9 +15,9 @@ dashboard: Cuadro de mandos
 my-closet: Armario
 player-manage: Jugadores
 user-manage: Usuarios
-plugin-manage: Complementos
-plugin-market: Mercado de complementos
-plugin-configs: Configs de complementos
+plugin-manage: Plugins
+plugin-market: Mercado de plugins
+plugin-configs: Configs de plugins
 customize: Personalizar
 options: Opciones
 score-options: Opciones de puntaje
@@ -27,35 +27,35 @@ close: Cerrar
 skin: Skin
 cape: Capa
 loading: Cargando
-texture-preview: Texture Preview
-walk: Walk
-run: Run
-rotation: Rotation
-pause: Pause
-reset: Reset
-submit: Submit
-notice: Notice
-switch-2d-preview: Switch to 2D preview
-illegal-parameters: Illegal parameters.
-private: Private
-public: Public
-unexistent-user: No such user.
-unexistent-player: No such player.
-player-banned: The owner of this player has been banned.
-texture-deleted: The requested texture has been deleted.
-texture-not-uploaded: The user haven't uploaded the texture of :type model yet.
-operations: Operations
+texture-preview: Preestreno de textura
+walk: Caminar
+run: Correr
+rotation: Girar
+pause: Pausar
+reset: Resetear
+submit: Aceptar
+notice: Aviso
+switch-2d-preview: Cambiar a preestreno 2D
+illegal-parameters: Parámetros ilegales.
+private: Privado
+public: Público
+unexistent-user: No existe este usuario.
+unexistent-player: No existe este jugador.
+player-banned: El dueño de este jugador ha sido baneado.
+texture-deleted: La textura solicitada ha sido borrada.
+texture-not-uploaded: El usuario no ha subido la textura del modelo :type todavía.
+operations: Operaciones
 user:
   uid: UID
-  email: Email
-  nickname: Nickname
-  password: Password
-  score: Score
-  register-at: Registered At
+  email: Correo electrónico
+  nickname: Nombre de usuario
+  password: Contraseña
+  score: Puntuación
+  register-at: Registrado el
 player:
   pid: PID
-  owner: Owner
-  player-name: Player Name
-  preference: Preference
-  previews: Texture Previews
-  last-modified: Last Modified
+  owner: Dueño
+  player-name: Nombre del jugador
+  preference: Preferencia
+  previews: Preestreno de textura
+  last-modified: Últim actualiz
