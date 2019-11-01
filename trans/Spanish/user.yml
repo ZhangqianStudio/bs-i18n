@@ -1,42 +1,42 @@
 ---
 used:
-  title: Resources Used
-  players: Registered players
-  storage: Storage used
-cur-score: Current Score
-score-notice: Click the score to show introduction.
-sign: Sign
-sign-success: Signed successfully. You got :score scores.
+  title: Recursos usados
+  players: Jugadores registrados
+  storage: Almacenamiento usado
+cur-score: Puntuación actual
+score-notice: Haga clic en la puntuación para mostrar la introducción.
+sign: Firmar
+sign-success: Firmado con éxito. Obtuviste :score puntuaciones.
 time-unit-hour: h
 time-unit-min: min
-cant-sign-until: You can't sign in in :time :unit
-last-sign: Last signed at :time
-sign-remain-time: Available after :time :unit
-announcement: Announcement
+cant-sign-until: No puedes iniciar sesión en :time :unit
+last-sign: Última firma en :time
+sign-remain-time: Disponible después de :time :unit
+announcement: Anuncio
 verification:
-  disabled: Email verification is not available.
-  frequent-mail: You click the send button too fast. Wait for 60 secs, guy.
-  verified: Your account is already verified.
-  success: Verification link was sent, please check your inbox.
-  failed: We failed to send you the verification link. Detailed message :msg
+  disabled: La verificación del correo electrónico no está disponible.
+  frequent-mail: Haces clic en el botón de enviar demasiado rápido. Espera 60 segundos, tío.
+  verified: Tu cuenta ya está verificada.
+  success: El enlace de verificación fue enviado, por favor comprueba tu bandeja de entrada.
+  failed: No hemos podido enviarte el enlace de verificación. Mensaje detallado :msg
   notice:
-    title: Verify Your Account
-    message: You must verify your email address before using the skin hosting service. Haven't received the email?
-    resend: Click here to send again.
-    sending: Sending...
+    title: Verifica su cuenta
+    message: Debe verificar su dirección de correo electrónico antes de usar el servicio de alojamiento de skins. ¿No ha recibido el correo electrónico?
+    resend: Haga clic aquí para enviar de nuevo.
+    sending: Enviando...
   mail:
-    title: Verify Your Account on :sitename
-    message: You are receiving this email because someone registered an account with this email address on :sitename.
-    reset: 'Click here to verify your account: <a href=":url">:url</a>'
-    ignore: If you did not register an account, no further action is required.
+    title: Verifique su cuenta en :sitename
+    message: Está recibiendo este correo electrónico porque alguien registró una cuenta con esta dirección en :sitename.
+    reset: 'Haga clic aquí para verificar su cuenta: <a href=":url">:url</a>'
+    ignore: Si no registraste una cuenta, no se requiere ninguna acción adicional.
 score-intro:
-  title: What is score?
+  title: '¿Qué es la puntuación?'
   introduction: |
-    We use score system to prevent the behaviors like uplaoding huge amount of textures and registering players casually.
-    Either adding players, uplaoding textures or adding a skinlib item to your closet will consume scores.
+    Utilizamos el sistema de puntuación para prevenir comportamientos como la subida de gran cantidades de texturas y el registro de jugadores casualmente.
+    Agregando jugadores, subiendo texturas o añadiendo un elemento skinlib a tu armario consumirá puntuaciones.
     :return-score
-    
-    New users will get :initial_score scores initially, and you can acquire :score-from ~ :score-to scores by daily signing in.
+
+    Nuevos usuarios obtendrán :initial_score inicialmente, y puedes adquirir puntajes :score-from ~ :score-to iniciando su sesión diariamente.
   will-return-score: The score will be returned if you deleted players, uploaded textures or closet items.
   no-return-score: The score will NOT be returned if you deleted players, uploaded textures or closet items.
   rates:
