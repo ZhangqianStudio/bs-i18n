@@ -1,45 +1,45 @@
 ---
 auth:
-  emptyIdentification: Empty email/player name.
-  emptyPassword: Password is required.
-  emptyCaptcha: Please enter the CAPTCHA.
-  login: Log In
-  loggingIn: Logging In
-  tooManyFails: You fails too many times! Please enter the CAPTCHA.
+  emptyIdentification: Email/nombre de jugador vacío.
+  emptyPassword: Se requiere una contraseña.
+  emptyCaptcha: Por favor, introduzca el CAPTCHA.
+  login: Iniciar sesión
+  loggingIn: Iniciando sesión
+  tooManyFails: '¡Falló demasiadas veces! Por favor, introduzca el CAPTCHA.'
   register:
-    emptyEmail: Empty email address.
-    invalidEmail: Invalid format of email address.
-    invalidPassword: Invalid password. The length of password should between 8 and 32.
-    emptyConfirmPwd: Empty confirming password.
-    invalidConfirmPwd: Confirming password is not equal with password.
-    emptyNickname: Empty nickname.
-    emptyPlayerName: Empty player name.
-    register: Register
-    registering: Registering
+    emptyEmail: Dirección de correo electrónico vacía.
+    invalidEmail: Formato de dirección de correo electrónico inválido.
+    invalidPassword: Contraseña no válida. La longitud de la contraseña debe estar entre 8 y 32.
+    emptyConfirmPwd: Contraseña de confirmación vacía.
+    invalidConfirmPwd: Contraseña de confirmación no es igual a la contraseña.
+    emptyNickname: Apodo vacío.
+    emptyPlayerName: Nombre de jugador vacío.
+    register: Crear cuenta
+    registering: Registrando
   resetPassword:
-    send: Send
+    send: Enviar
     sending:
-      reset: Reset
-    resetting: Resetting
+      reset: Reiniciar
+    resetting: Reiniciando
 skinlib:
-  addToCloset: Add to closet
-  removeFromCloset: Remove from closet
-  setItemName: Set a name for this texture
-  applyNotice: You can apply it to player at your closet
-  emptyItemName: Empty texture name.
+  addToCloset: Añadir al armario
+  removeFromCloset: Eliminar del armario
+  setItemName: Establecer un nombre para esta textura
+  applyNotice: Puedes aplicarlo al jugador en tu armario
+  emptyItemName: Nombre de textura vacío.
   filter:
-    skin: (Any Model)
+    skin: (Cualquier modelo)
     steve: (Steve)
     alex: (Alex)
-    cape: (Cape)
-    uploader: User (UID = :uid) Uploaded
-    allUsers: All Users
+    cape: (Capa)
+    uploader: Usuario (UID = :uid) subido
+    allUsers: Todos los usuarios
   sort:
-    time: Newestly Uploaded
-    likes: Most Likes
+    time: Recientemente subido
+    likes: Más popular
   rename:
-    setNewTextureName: Please enter the new texture name
-    emptyNewTextureName: Empty new texture name.
+    setNewTextureName: Por favor, introduzca el nombre nuevo de la textura
+    emptyNewTextureName: Nombre nuevo de la textura vacío.
   changeModel:
     setNewTextureModel: Please select a new texture model
   preview:
