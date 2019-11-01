@@ -22,11 +22,11 @@ register:
   close: No aceptamos cuentas nuevas.
   success: Su cuenta fue creada. Redirigiendo...
   max: No puede registrar más de :regs cuentas.
-  registered: El correo electrónico ya ha sido registrado.
+  registered: La dirección de correo electrónico ya ha sido registrada.
 forgot:
-  title: Contraseña olvidada
+  title: Olvidó la contraseña
   button: Enviar
-  message: Le enviaremos un email para verificar.
+  message: Le enviaremos un correo electrónico para verificar.
   login-link: Lo recuerdo
   disabled: El restablecimiento de contraseña no está disponible.
   frequent-mail: Haz hecho clic en el botón de enviar demasiado rápido. Espera unos minutos.
@@ -36,44 +36,44 @@ forgot:
   mail:
     title: Restablezca su contraseña en :sitename
     message: Está recibiendo este correo electrónico porque solicitó restablecer la contraseña de su cuenta de usuario en :sitename.
-    reset: 'To reset your password, please visit: <a href=":url">:url</a>'
-    ignore: If you did not request a password reset, no further action is required.
+    reset: 'Para restablecer su contraseña, por favor visite: <a href=":url">:url</a>'
+    ignore: Si no solicitó un restablecimiento de contraseña, no se requiere ninguna acción adicional.
 reset:
-  title: Reset Password
-  button: Reset
-  invalid: Invalid link.
-  expired: This link is expired, please resend a verification email.
-  message: ':username, reset your password here.'
-  success: Your password was reset successfully.
+  title: Restablecer contraseña
+  button: Restablecer
+  invalid: Enlace inválido.
+  expired: Este enlace ha caducado, por favor reenvíe un correo electrónico de verificación.
+  message: ':username, restablezca su contraseña aquí.'
+  success: Su contraseña se ha cambiado con éxito.
 bind:
-  title: Bind Email
-  button: Bind
-  message: You need to provide your email adderss to continue.
-  introduction: We won't send you any spam.
-  registered: The email address was already taken.
+  title: Enlazar email
+  button: Enlazar
+  message: Necesitas proporcionar su dirección de correo electrónico para continuar.
+  introduction: No te enviaremos ningún correo spam.
+  registered: Esta dirección de correo electrónico ya está en uso.
 verify:
-  title: Email Verification
-  success: Your account was now verified.
-  message: Welcome to :sitename!
-  button: Homepage
-  invalid: Invalid link.
-  expired: This link is expired, please resend a verification email.
+  title: Verificación de correo electrónico
+  success: Su cuenta ha sido verificada.
+  message: '¡Bienvenidos a :sitename!'
+  button: Inicio
+  invalid: Enlace inválido.
+  expired: Este enlace ha caducado, por favor reenvíe un correo electrónico de verificación.
 validation:
-  identification: The email or player name is invalid.
-  email: Email format is invalid.
-  captcha: Wrong CAPTCHA.
-  user: No such user.
-  password: Wrong password.
+  identification: La dirección de correo electrónico o el nombre del jugador no son válidos.
+  email: Formato de correo no válido.
+  captcha: CAPTCHA erróneo.
+  user: No existe este usuario.
+  password: Contraseña incorrecta.
 logout:
-  success: You are now logged out.
-  fail: No valid session.
-nickname: Nickname
-player-name: Minecraft player name
-email: Email
-identification: Email or player name
-password: Password
+  success: Ha cerrado su sesión.
+  fail: No hay sesión activa.
+nickname: Nombre de usuario
+player-name: Nombre del jugador de Minecraft
+email: Correo electrónico
+identification: Correo electrónico o nombre del jugador
+password: Contraseña
 captcha: CAPTCHA
-change-captcha: Click to change CAPTCHA image.
-login-link: Already registered? Log in here.
-forgot-link: Forgot password?
-register-link: Register a new account
+change-captcha: Haga clic para cambiar la imagen CAPTCHA.
+login-link: '¿Ya estás registrado? Inicia sesión aquí.'
+forgot-link: '¿Olvido su contraseña?'
+register-link: Registrar una cuenta nueva
