@@ -13,69 +13,69 @@ filter:
   any-model: (Cualquier modelo)
   steve-model: (Modelo Steve)
   alex-model: (Modelo Alex)
-  uploader: User (:name) uploaded
-  clean-filter: Clean filter
+  uploader: Subido por usuario (:name)
+  clean-filter: Limpiar filtro
 sort:
-  newest-uploaded: Newestly uploaded
-  most-likes: Most likes
+  newest-uploaded: Recientemente subido
+  most-likes: Más popular
 item:
   steve: (Steve)
   alex: (Alex)
-  cape: (Cape)
-  apply: Quick apply
-  remove-from-closet: Remove from closet
-  add-to-closet: Add to closet
-  anonymous: Please login first
-  private: Private
+  cape: (Capa)
+  apply: Aplicación rápida
+  remove-from-closet: Retirar de armario
+  add-to-closet: Añadir a armario
+  anonymous: Inicie sesión primero
+  private: Privado
 show:
-  title: Texture Details
-  anonymous: You must login to use closets.
-  likes: People who liked this
-  detail: Details
-  name: Texture Name
-  edit: Edit
-  model: Applicable Model
-  download-raw: Click to download raw texture
-  size: File Size
-  uploader: Uploader
-  upload-at: Upload At
+  title: Detalles de textura
+  anonymous: Debes iniciar sesión para usar armarios.
+  likes: Gente a la que le gustó esto
+  detail: Detalles
+  name: Nombre de textura
+  edit: Editar
+  model: Modelo aplicable
+  download-raw: Haga clic para descargar textura en bruto
+  size: Tamaño del archivo
+  uploader: Cargador
+  upload-at: Cargado el
   manage-panel:
-    title: Manage Panel
-    notice: You can delete this texture or make it private. The operation will also remove it from the closet of everyone who had favorited it.
-  comment: Comment
-  comment-not-available: Comment is not available.
-  delete-texture: Delete texture
-  deleted: The requested texture was already deleted.
-  contact-admin: Please contact the admins to remove this entry.
-  private: The requested texture is private and only visible to the uploader and admins.
+    title: Panel de gestión
+    notice: Puedes eliminar esta textura o hacerla privada. La operación también la eliminará del armario de todos los que la habían marcado como favorito.
+  comment: Comentar
+  comment-not-available: El comentario no está disponible.
+  delete-texture: Borra textura
+  deleted: La textura solicitada ya ha sido eliminada.
+  contact-admin: Póngase en contacto con los administradores para eliminar esta entrada.
+  private: La textura solicitada es privada y sólo visible por el cargador y los administradores.
 upload:
-  title: Upload Texture
-  texture-name: Texture Name
-  name-rule: Less than 32 characters and must not contain any special one.
-  name-rule-regexp: Custom name rules are applied. :regexp
-  texture-type: Texture Type
-  select-file: Select File
-  private-score-notice: It will spend you more scores for setting it as private. You will be charged :score scores for per KB storage.
-  privacy-notice: Prevent it from being visible at skin library.
-  set-as-private: Make it private
-  button: Upload
-  type-error: Incorrect mime type of uploaded file.
-  invalid-size: Invalid :type file (width :width, height :height)
-  invalid-hd-skin: Invalid HD skin (width and height should be divisible by 32)
-  lack-score: You don't have enough score to upload this texture.
-  repeated: The texture is already uploaded by someone else. You can add it to your closet directly.
-  success: Texture :name was uploaded successfully.
+  title: Subir textura
+  texture-name: Nombre de textura
+  name-rule: Usar menos de 32 caracteres normales y ninguno especial.
+  name-rule-regexp: Se aplican reglas de nombre personalizadas. :regexp
+  texture-type: Tipo de textura
+  select-file: Seleccionar archivo
+  private-score-notice: Se gastarán más puntuaciones por configurarlo como privado. Se le cobrará :score por cada almacenamiento KB.
+  privacy-notice: Evitar que sea visible en la colección de pieles.
+  set-as-private: Marcar privado
+  button: Subir
+  type-error: Tipo de archivo mime incorrecto subido.
+  invalid-size: Archivo :type no válido (ancho :width, altura :height)
+  invalid-hd-skin: Skin HD inválida (ancho y altura debe ser divisible por 32)
+  lack-score: No tienes suficiente puntuación para subir esta textura.
+  repeated: La textura ya está cargada por otra persona. Puedes añadirla a tu armario directamente.
+  success: Textura :name se ha subido correctamente.
 delete:
-  success: The texture was deleted successfully.
+  success: La textura se eliminó correctamente.
 privacy:
-  change-privacy: Change privacy
-  set-as-private: Set as private
-  set-as-public: Set as public
-  success: The texture was set to :privacy successfully.
+  change-privacy: Administrar privacidad
+  set-as-private: Establecer como privado
+  set-as-public: Establecer como público
+  success: La textura se estableció a :privacy correctamente.
 rename:
-  success: The texture was renamed to :name successfully.
+  success: La textura fue renombrada a :name exitosamente.
 model:
-  success: The texture's model was changed to :model successfully.
+  success: El modelo de la textura se cambió a :model correctamente.
   duplicate: "The same texture available for the chosen model already exists in skinlib (TID: :tid). You can add it to your closet directly."
 no-permission: You have no permission to moderate this texture.
 non-existent: No such texture.
