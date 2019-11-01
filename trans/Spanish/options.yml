@@ -108,31 +108,31 @@ general:
     hint: El RegExp para validar el nombre de las texturas subidas. Dejar en blanco para permitir cualquier carácter excepto una comilla individual, doble y barra invertida.
     placeholder: Expresiones regulares
   comment_script:
-    title: Comment Script
-    description: Placeholder is available, <code>{tid}</code> will be replaced with texture id, <code>{name}</code> will be replaced with texture name, <code>{url}</code> will be replaced with current URL.
+    title: Script de comentarios
+    description: El marcador de posición está disponible, <code>{tid}</code> será reemplazado por el id de la textura, <code>{name}</code> será reemplazado por el nombre de la textura, <code>{url}</code> será reemplazado por la URL actual.
   allow_sending_statistics:
-    title: Statistics
-    label: Send usage statistics anonymously.
-    hint: Privacy information will nerver be sent.
+    title: Estadísticas
+    label: Enviar estadísticas de uso anónimamente.
+    hint: Información privada nunca se enviará.
 announ:
-  title: Announcement
+  title: Anuncio
   announcement:
-    description: Styling with Markdown is supported. You can also specify a different announcement for each language. To edit a specific language's corresponding announcement, please switch to that language and submit your edit.
+    description: El estilo con Markdown es compatible. También puedes especificar un anuncio diferente para cada idioma. Para editar el anuncio correspondiente de un idioma específico, por favor cambie a ese idioma y someta su edición.
 resources:
-  title: Resource Files
-  hint: Please check these options if you enabled CDN for your site.
+  title: Archivos de recursos
+  hint: Por favor, compruebe estas opciones si ha habilitado CDN para su sitio.
   force_ssl:
-    title: Force SSL
-    label: Use HTTPS protocol to load all front-end assets.
-    hint: Please check if SSL really available before turning on.
+    title: Forzar SSL
+    label: Utilice el protocolo HTTPS para cargar todos los assets del front-end.
+    hint: Por favor, compruebe si SSL está realmente disponible antes de activar.
   auto_detect_asset_url:
-    title: Assets URL
-    label: Determine assets url automatically.
-    description: Please unable this if assets URLs are wrongly generated under a CDN. The site url will be used if this is not enabled.
+    title: URL de recursos
+    label: Determinar la url de assets automáticamente.
+    description: Por favor, no se puede esto si las URL de los activos se generan incorrectamente bajo un CDN. Se utilizará la url del sitio si esto no está habilitado.
   return_204_when_notfound:
-    title: HTTP Response Code
-    label: Return 204 instead of 404 when requesting non-existent player.
-    description: If your CDN doesn't cache 404 pages, please turn this on. A flood of requests to non-existent players will greatly slow down the site.
+    title: Código de respuesta HTTP
+    label: Devuelve 204 en lugar de 404 cuando solicite un jugador inexistente.
+    description: Si su CDN no almacena en caché páginas 404, por favor active esta opción. Un aluvión de peticiones a jugadores inexistentes ralentizará enormemente el sitio.
   cache_expire_time:
-    title: Cache Exipre Time
-    hint: In seconds, 86400 = one day, 31536000 = one year.
+    title: Tiempo de expiración caché
+    hint: En segundos, 86400 = un día, 31536000 = un año.
