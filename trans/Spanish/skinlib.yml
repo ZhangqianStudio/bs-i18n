@@ -1,18 +1,18 @@
 ---
 general:
-  filter: Filter
-  my-upload: Uploaded by me
-  sort: Sort
-  search-textures: Search for textures...
-  upload-new-skin: Upload new skin
-  no-result: No result.
+  filter: Filtro
+  my-upload: Subido por mí
+  sort: Ordenar
+  search-textures: Buscar texturas...
+  upload-new-skin: Subir nuevo skin
+  no-result: Sin resultados.
 filter:
-  now-showing: Now showing
+  now-showing: Mostrando ahora
   skin: Skin
-  cape: Cape
-  any-model: (Any Model)
-  steve-model: (Steve Model)
-  alex-model: (Alex Model)
+  cape: Capa
+  any-model: (Cualquier modelo)
+  steve-model: (Modelo Steve)
+  alex-model: (Modelo Alex)
   uploader: User (:name) uploaded
   clean-filter: Clean filter
 sort:
