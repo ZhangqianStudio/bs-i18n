@@ -1,22 +1,22 @@
 ---
 login:
-  title: Log In
-  button: Log In
-  message: Log in to manage your skin & players
-  keep: Remember me
-  success: Logged in successfully.
+  title: Iniciar sesión
+  button: Iniciar
+  message: Iniciar sesión para gestionar tu skin y jugadores
+  keep: Recuérdame
+  success: Iniciado exitosamente.
 check:
-  anonymous: Illegal access. Please log in first.
-  verified: To access this page, you should verify your email address first.
-  admin: Only admins are permitted to access this page.
-  super-admin: Only super admin is permitted to access this page.
-  banned: You are banned on this site. Please contact the admin.
-  token: Token expired. Please log in.
+  anonymous: Acceso ilegal. Favor iniciarse primero.
+  verified: Debes verificar su correo electrónico para accesar esta página.
+  admin: Sólo administradores están permitidos accesar esta página.
+  super-admin: Sólo súper administradores están permitidos accesar esta página.
+  banned: Estás baneado. Favor contactar el administrador.
+  token: Token expirado. Favor iniciarse.
 register:
-  title: Register
-  button: Register
-  message: Welcome to :sitename!
-  player-name-intro: Player name in Minecraft, can be changed later
+  title: Crear cuenta
+  button: Registrar
+  message: '¡Bienvenidos a :sitename!'
+  player-name-intro: Nombre de jugador en Minecraft, puede ser cambiado más tarde
   nickname-intro: Whatever you like expect special characters
   repeat-pwd: Repeat your password
   close: We don't accept any registration.
