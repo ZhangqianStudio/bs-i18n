@@ -41,41 +41,41 @@ skinlib:
     setNewTextureName: Por favor, introduzca el nombre nuevo de la textura
     emptyNewTextureName: Nombre nuevo de la textura vacío.
   changeModel:
-    setNewTextureModel: Please select a new texture model
+    setNewTextureModel: Por favor, seleccione un modelo de textura nuevo
   preview:
-    badSkinSize: The size of selected skin file is not valid
-    badCapeSize: The size of selected cape file is not valid
+    badSkinSize: El tamaño del archivo de skin seleccionado no es válido
+    badCapeSize: El tamaño del archivo de capa seleccionado no es válido
   upload:
-    emptyTextureName: Empty texture name.
-    emptyTextureType: Please select a type for this texture.
-    emptyUploadFile: You have not uploaded any file.
+    emptyTextureName: Nombre de textura vacío.
+    emptyTextureType: Por favor, seleccione un tipo para esta textura.
+    emptyUploadFile: No ha subido ningún archivo.
     encodingError:
-      Error: Encoding of this file is not accepted.
+      Error: La codificación de este archivo no es aceptada.
     fileExtError:
-      Error: Textures should be PNG files.
-    upload: Upload
-    uploading: Uploading
-    redirecting: Redirecting...
+      Error: Las texturas deben ser archivos PNG.
+    upload: Subir
+    uploading: Subiendo
+    redirecting: Redirigiendo...
   changePrivacy:
-    setAsPrivate: Set as private
-    setAsPublic: Set as public
-    setPublicNotice: Sure to set this as public texture?
-    deleteNotice: Are you sure to delete this texture?
+    setAsPrivate: Establecer como privado
+    setAsPublic: Establecer como público
+    setPublicNotice: '¿Seguro que quieres establecer esto como textura pública?'
+    deleteNotice: '¿Seguro que desea eliminar esta textura?'
 user:
-  signRemainingTime: Available after :time :unit
+  signRemainingTime: Disponible después de :time :unit
   timeUnitHour: h
   timeUnitMin: min
 closet:
-  emptyClosetMsg: <p>Nothing in your closet...</p><p>Why not explore the <a href=":url">Skin Library</a> for a while?</p>
-  renameItem: Rename item
-  removeItem: Remove from closet
-  setAsAvatar: Set as avatar
-  viewInSkinlib: View in skin library
-  switch2dPreview: Switch to 2D preview
-  switch3dPreview: Switch to 3D preview
-  removeFromClosetNotice: Sure to remove this texture from your closet?
-  emptySelectedPlayer: No player is selected.
-  emptySelectedTexture: No texture is selected.
+  emptyClosetMsg: <p>Nada en tu armario...</p><p>¿Por qué no explorar la <a href=":url">colección de skins</a> durante un tiempo?</p>
+  renameItem: Renombrar elemento
+  removeItem: Eliminar del armario
+  setAsAvatar: Establecer como avatar
+  viewInSkinlib: Ver en la colección de skins
+  switch2dPreview: Cambiar a preestreno 2D
+  switch3dPreview: Cambiar a preestreno 3D
+  removeFromClosetNotice: '¿Seguro que quieres eliminar esta textura de tu armario?'
+  emptySelectedPlayer: Ningún jugador está seleccionado.
+  emptySelectedTexture: No hay textura seleccionada.
   renameClosetItem: Set a new name for this item：
 player:
   changePlayerName: Please enter the player name：
@@ -122,58 +122,58 @@ admin:
     admin: Admin
     superAdmin: Super Admin
   verification:
-    unverified: Unverified
-    verified: Verified
+    unverified: Sin verificar
+    verified: Verificado
   players:
-    textureType: Texture Type
-    skin: Skin (:model Model)
-    cape: Cape
-    pid: Texture ID
-    pidNotice: Please enter the tid of texture. Inputting 0 can clear texture of this player.
-    changePlayerTexture: Change textures of :player
-    ch angeTexture: Change textures
-    changePlayerName: Change player name
-    changeOwner: Change owner
-    deletePlayer: Delete
-    changePlayerOwner: Please enter the id of user which this player is transfering to：
-    deletePlayerNotice: Are you sure to delete this player? It\ permanent.
-    targetUser: Target user is :nickname
-    noSuchUser: No such user.
-    changePlayerNameNotice: Please input new player name：
-    emptyPlayerName: Player name cannot be empty.
+    textureType: Tipo de textura
+    skin: Skin (Modelo :model)
+    cape: Capa
+    pid: ID de textura
+    pidNotice: Por favor ingresa el tid de la textura. Introduce 0 para remover la textura de este jugador.
+    changePlayerTexture: Cambiar las texturas de :player
+    ch angeTexture: Cambiar texturas
+    changePlayerName: Cambiar nombre del jugador
+    changeOwner: Cambiar propietario
+    deletePlayer: Eliminar
+    changePlayerOwner: Por favor, introduzca el id del usuario al que este jugador está transfiriendo：
+    deletePlayerNotice: '¿Seguro que quieres eliminar este jugador? Es permanente.'
+    targetUser: El usuario de destino es :nickname
+    noSuchUser: No existe tal usuario.
+    changePlayerNameNotice: Por favor, introduzca el nuevo nombre del jugador：
+    emptyPlayerName: El nombre del jugador no puede estar vacío.
   plugins:
     pluginTitle: Plugin
-    pluginAuthor: Author
-    pluginVersion: Version
-    pluginName: Name
-    pluginOperations: Operations
-    pluginDescription: Description
-    pluginDependencies: Dependencies
-    pluginEnabled: Enabled
-    enablePlugin: Enable
-    disablePlugin: Disable
-    configurePlugin: Configure
-    installPlugin: Install
-    pluginInstalling: Installing...
-    updatePlugin: Update
-    pluginUpdating: Updating...
-    confirmUpdate: Are you sure to update ":plugin" from :old to :new?
-    deletePlugin: Delete
-    confirmDeletion: Are you sure to delete this plugin?
-    noDependencies: No Dependencies
-    whyDependencies: What\s this?
-    noDependenciesNotice: There is no dependency definition in the plugin. It means that the plugin may be not compatible with the current version of Blessing Skin and enabling it may cause unexpected problems. Do you really want to enable the plugin?
-    preparing: Preparing
-    downloadCompleted: Update package download completed.
-    extracting: Extracting update package...
+    pluginAuthor: Autor
+    pluginVersion: Versión
+    pluginName: Nombre
+    pluginOperations: Operaciones
+    pluginDescription: Descripción
+    pluginDependencies: Dependencias
+    pluginEnabled: Habilitado
+    enablePlugin: Habilitar
+    disablePlugin: Desactivar
+    configurePlugin: Configurar
+    installPlugin: Instalar
+    pluginInstalling: Instalando...
+    updatePlugin: Actualizar
+    pluginUpdating: Actualizando...
+    confirmUpdate: '¿Está seguro que desea actualizar ":plugin" de :old a :new?'
+    deletePlugin: Eliminar
+    confirmDeletion: '¿Seguro que desea eliminar este plugin?'
+    noDependencies: No hay dependencias
+    whyDependencies: '¿Qué es esto?'
+    noDependenciesNotice: No hay ninguna definición de dependencia en el plugin. Significa que el plugin puede no ser compatible con la versión actual de Blessing Skin y habilitarlo puede causar problemas inesperados. ¿Realmente desea activar el plugin?
+    preparing: Preparando
+    downloadCompleted: Descarga de paquete de actualización completada.
+    extracting: Extrayendo paquete de actualización...
     general:
     skin: Skin
-    cape: Cape
-    fatalError: Fatal Error <small>(Please read the <a target="_blank" href="https://github.com/printempw/blessing-skin-server/wiki/FAQ">FAQ</a> before asking questions)</small>
-    confirmLogout: Sure to log out?
+    cape: Capa
+    fatalError: Error fatal <small>(Por favor lea la <a target="_blank" href="https://github.com/printempw/blessing-skin-server/wiki/FAQ">FAQ</a> antes de hacer preguntas)</small>
+    confirmLogout: '¿Seguro que quieres cerrar sesión?'
     confirm: OK
-    cancel: Cancel
-    more: More
-    pagination: Page :page total :total
+    cancel: Cancelar
+    more: Más
+    pagination: Página :page total :total :total
     searchResult: (Search result of keyword ":keyword")
     noResult: No result.
